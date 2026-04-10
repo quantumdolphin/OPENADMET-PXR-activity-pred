@@ -1,0 +1,9 @@
+Molecule Name,cluster_id,cluster_size,split
+OADMET-0001604,88,2,holdout
+OADMET-0001736,88,2,holdout
+OADMET-0000990,0,81,train
+OADMET-0001490,0,81,train
+OADMET-0001510,0,81,train
+OADMET-0001867,0,81,train
+OADMET-0001580,74,2,val
+OADMET-0005364,74,2,val
