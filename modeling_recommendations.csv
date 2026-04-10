@@ -1,0 +1,7 @@
+question,initial_answer,rationale
+predict_raw_pEC50,yes,pEC50 is already log-scaled; inspect only for censoring/floor effects.
+predict_rank_only,unlikely_for_baseline,Use ranking later only if metric behavior or severe label noise suggests it.
+predict_bins_only,unlikely_for_baseline,Binning discards potency resolution needed for continuous competition targets.
+use_uncertainty_weighting,consider,Per-row inverse-variance weights can be derived from pEC50_std.error or CI width.
+review_low_potency_noise,yes,"Spearman corr(pEC50, stderr)=-0.850; corr(pEC50, ci_width)=-0.848."
+check_pEC50_vs_Emax_consistency,yes,"Spearman corr(pEC50, Emax)=-0.140; inspect strong potency with weak efficacy or high uncertainty."

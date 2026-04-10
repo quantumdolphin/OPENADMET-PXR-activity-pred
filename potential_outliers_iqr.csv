@@ -1,0 +1,2 @@
+Molecule Name,SMILES,pEC50,pEC50_ci.lower (-log10(molarity)),pEC50_ci.upper (-log10(molarity)),ci_width,pEC50_std.error (-log10(molarity)),Emax_estimate (log2FC vs. baseline),inverse_variance_weight,inverse_stderr_weight
+OADMET-0001239,O=S(=O)(C1=CC=CC=C1)N(CC(F)(F)F)C1=CC=C(C(O)(C(F)(F)F)C(F)(F)F)C=C1,7.54855421686747,7.491204819277108,7.605421686746988,0.1142168674698798,0.0032536748543859,2.767228915662651,94460.81713474945,307.344785436079

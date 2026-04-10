@@ -1,0 +1,1 @@
+Molecule Name,SMILES,pEC50,pEC50_ci.lower (-log10(molarity)),pEC50_ci.upper (-log10(molarity)),ci_width,pEC50_std.error (-log10(molarity)),Emax_estimate (log2FC vs. baseline),inverse_variance_weight,inverse_stderr_weight
