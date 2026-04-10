@@ -46,6 +46,7 @@ This is chemically plausible and important. In a medicinal chemistry program, th
 ### Figure 2. Split Composition by Cluster Count
 
 File: `figure_2_split_cluster_counts.png`
+![Alt text](figure_2_split_cluster_counts.png)
 
 The cluster counts are:
 
@@ -60,6 +61,7 @@ This is a common and acceptable consequence of cluster-based splitting.
 ### Figure 3. Split Composition by Molecule Count
 
 File: `figure_3_split_molecule_counts.png`
+![Alt text](figure_3_split_molecule_counts.png)
 
 The molecule counts are:
 
@@ -74,6 +76,7 @@ Taken together, Figures 2 and 3 show that the split is balanced where it matters
 ### Figure 4. Chemical Space Projection (PCA)
 
 File: `figure_4_chemical_space_pca.png`
+![Alt text](figure_4_chemical_space_pca.png)
 
 This figure projects the v1 compounds into two principal components derived from Morgan fingerprints joined from the v2 fingerprint matrix by `Molecule Name`.
 
@@ -84,6 +87,7 @@ For v1, the interpretation is that train, validation, and holdout occupy the sam
 ### Figure 5. Intra- vs Inter-Split Similarity Distribution
 
 File: `figure_5_intra_vs_inter_split_similarity.png`
+![Alt text](figure_5_intra_vs_inter_split_similarity.png)
 
 This figure compares sampled Tanimoto similarity values for:
 
@@ -97,6 +101,8 @@ This is exactly the desired direction of effect. In medicinal chemistry terms, c
 ### Figure 6. Nearest-Neighbor Leakage Check
 
 File: `figure_6_nearest_neighbor_leakage.png`
+![Alt text](figure_6_nearest_neighbor_leakage.png)
+
 
 This is one of the most important diagnostics in the folder. For each validation or holdout molecule, the figure shows the distribution of the **maximum Tanimoto similarity to any training molecule**.
 
@@ -118,6 +124,8 @@ This is a substantial reduction in analog leakage. It means the validation and h
 
 File: `figure_7_cluster_integrity.png`
 
+![Alt text](figure_7_cluster_integrity.png)
+
 This figure confirms that every cluster appears in exactly one split. The summary table shows:
 
 - **1,525 clusters** appearing in **1 distinct split**
@@ -132,6 +140,8 @@ Files:
 - `figure_8_example_cluster_assignment.png`
 - `figure_8_example_cluster_assignment.csv`
 
+  ![Alt text](figure_8_example_cluster_assignment.png)
+
 This example is useful because it demonstrates the propagation logic from cluster assignment to split assignment. For example:
 
 - cluster `88` has size `2`, and both example molecules are assigned to `holdout`
@@ -143,6 +153,8 @@ This is exactly how cluster-based partitioning should behave. The split is not m
 ### Figure 9. Comparison with Random Split
 
 File: `figure_9_random_vs_cluster_comparison.png`
+
+![Alt text](figure_9_random_vs_cluster_comparison.png)
 
 This figure provides the most direct practical comparison. The random split produces a visibly more right-shifted nearest-neighbor similarity distribution, indicating more close analogs in validation and holdout relative to training. The cluster split shifts that distribution leftward, indicating stronger separation.
 
