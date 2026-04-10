@@ -37,6 +37,7 @@ This pattern indicates a typical medicinal chemistry composition: a large number
 ### Figure 1. Cluster Size Distribution
 
 File: `figure_1_cluster_size_distribution.png`
+![Alt text](figure_1_cluster_size_distribution.png)
 
 This figure confirms a strongly long-tailed cluster size distribution. Most clusters are very small, and the dataset is dominated numerically by singleton or near-singleton groups, while a few clusters contain large analog series.
 
