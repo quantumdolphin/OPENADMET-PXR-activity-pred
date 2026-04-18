@@ -209,6 +209,7 @@ That means strong performance requires more than broad global interpolation. It 
 This also means leaderboard behavior may reward methods that are good at medicinal-chemistry-style analog ranking, not just coarse active/inactive separation.
 
 ## The Sankey-style assay flow described in the blog
+![Alt text](pxr_dataset_sankey-2.png)
 
 The blog refers to a Sankey diagram representing the flow of compounds between screening and assay stages.
 
