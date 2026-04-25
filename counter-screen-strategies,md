@@ -1,0 +1,1037 @@
+Suggest new conversation accepted for message 2acc2328-f5f8-4238-9422-a6cd449d973f
+
+I’m gathering project context first, then I’ll pull relevant publications on using primary-screen and counterscreen data for potency modeling so the recommendations map cleanly to your pEC50 task.
+UpdateTodos: 3 items
+
+
+**File Glob Results:**
+
+- **/home/avranga1008/pxr-challenge/README.md**
+- **/home/avranga1008/pxr-challenge/activity/scripts/write_lf_surrogate_model_comparison_report.py**
+- **/home/avranga1008/pxr-challenge/activity/scripts/submission_11_rwpe/03_generate_3way_ensemble_submission.py**
+- **/home/avranga1008/pxr-challenge/activity/scripts/submission_11_rwpe/01_export_holdout_predictions_vgae_rwpe.py**
+- **/home/avranga1008/pxr-challenge/activity/scripts/train_v2_with_fingerprints_xgboost_fixed.py**
+- **/home/avranga1008/pxr-challenge/activity/scripts/submission_06/README.md**
+- **/home/avranga1008/pxr-challenge/activity/scripts/submission_06/02_generate_submission_vgae.py**
+- **/home/avranga1008/pxr-challenge/activity/scripts/submission_06/01_export_holdout_predictions_vgae.py**
+- **/home/avranga1008/pxr-challenge/activity/scripts/train_baseline_mlflow.py**
+- **/home/avranga1008/pxr-challenge/activity/scripts/build_scikit_mol_features.py**
+- **/home/avranga1008/pxr-challenge/activity/scripts/make_chemprop_lf_regression_8_33.py**
+- **/home/avranga1008/pxr-challenge/activity/scripts/predict_rf_finalists.py**
+- **/home/avranga1008/pxr-challenge/activity/scripts/build_single_dose_chemprop_lf_tables.py**
+- **/home/avranga1008/pxr-challenge/activity/scripts/identify_single_concentration_hits.py**
+- **/home/avranga1008/pxr-challenge/activity/scripts/submission_04/05_generate_submission.py**
+- **/home/avranga1008/pxr-challenge/activity/scripts/submission_04/04_train_xgboost_champion.py**
+- **/home/avranga1008/pxr-challenge/activity/scripts/submission_04/02_export_vgae_embeddings.py**
+- **/home/avranga1008/pxr-challenge/activity/scripts/submission_04/06_evaluate_holdout.py**
+- **/home/avranga1008/pxr-challenge/activity/scripts/submission_04/01_build_pretrain_dataset.py**
+- **/home/avranga1008/pxr-challenge/activity/scripts/submission_04/03_build_feature_matrix.py**
+- **/home/avranga1008/pxr-challenge/activity/scripts/submission_10_graphmae/05_generate_submission.py**
+- **/home/avranga1008/pxr-challenge/activity/scripts/submission_10_graphmae/03_train_xgboost.py**
+- **/home/avranga1008/pxr-challenge/activity/scripts/submission_10_graphmae/01_export_graphmae_embeddings.py**
+- **/home/avranga1008/pxr-challenge/activity/scripts/submission_10_graphmae/02_build_feature_matrix.py**
+- **/home/avranga1008/pxr-challenge/activity/scripts/submission_10_graphmae/04_evaluate_holdout.py**
+- **/home/avranga1008/pxr-challenge/activity/scripts/train_lf_xgboost_8_33.py**
+- **/home/avranga1008/pxr-challenge/activity/scripts/build_bonafide_stage1_features.py**
+- **/home/avranga1008/pxr-challenge/activity/scripts/tune_lf_xgboost_8_33_optuna.py**
+- **/home/avranga1008/pxr-challenge/activity/scripts/train_v2_without_fingerprints_fixed_hgb.py**
+- **/home/avranga1008/pxr-challenge/activity/scripts/export_ligprep_inputs.py**
+- **/home/avranga1008/pxr-challenge/activity/scripts/eda_target_quality.py**
+- **/home/avranga1008/pxr-challenge/activity/scripts/generate_xgboost_champion_submission.py**
+- **/home/avranga1008/pxr-challenge/activity/scripts/submission_07/05_generate_submission.py**
+- **/home/avranga1008/pxr-challenge/activity/scripts/submission_07/03_train_xgboost.py**
+- **/home/avranga1008/pxr-challenge/activity/scripts/submission_07/02_build_feature_matrix.py**
+- **/home/avranga1008/pxr-challenge/activity/scripts/submission_07/01_export_lf_embeddings.py**
+- **/home/avranga1008/pxr-challenge/activity/scripts/submission_07/04_evaluate_holdout.py**
+- **/home/avranga1008/pxr-challenge/activity/scripts/make_butina_cluster_split.py**
+- **/home/avranga1008/pxr-challenge/activity/scripts/submission_08/05_generate_submission.py**
+- **/home/avranga1008/pxr-challenge/activity/scripts/submission_08/03_train_xgboost.py**
+- **/home/avranga1008/pxr-challenge/activity/scripts/submission_08/01_export_contrastive_embeddings.py**
+- **/home/avranga1008/pxr-challenge/activity/scripts/submission_08/02_build_feature_matrix.py**
+- **/home/avranga1008/pxr-challenge/activity/scripts/submission_08/04_evaluate_holdout.py**
+- **/home/avranga1008/pxr-challenge/activity/scripts/submission_05/README.md**
+- **/home/avranga1008/pxr-challenge/activity/scripts/submission_05/02_generate_submission_vgae.py**
+- **/home/avranga1008/pxr-challenge/activity/scripts/submission_05/01_export_holdout_predictions_vgae.py**
+- **/home/avranga1008/pxr-challenge/activity/scripts/evaluate_lf_xgboost_optuna_val_best.py**
+- **/home/avranga1008/pxr-challenge/activity/scripts/submission_09_blend/05_generate_submission.py**
+- **/home/avranga1008/pxr-challenge/activity/scripts/submission_09_blend/03_train_xgboost.py**
+- **/home/avranga1008/pxr-challenge/activity/scripts/submission_09_blend/06_ensemble_sub7_sub8.py**
+- **/home/avranga1008/pxr-challenge/activity/scripts/submission_09_blend/02_build_feature_matrix.py**
+- **/home/avranga1008/pxr-challenge/activity/scripts/submission_09_blend/04_evaluate_holdout.py**
+- **/home/avranga1008/pxr-challenge/activity/scripts/run_chemprop_lf_regression_tuning.py**
+- **/home/avranga1008/pxr-challenge/activity/scripts/write_low_fidelity_gnn_report.py**
+- **/home/avranga1008/pxr-challenge/activity/scripts/train_v2_with_fingerprints_optuna.py**
+- **/home/avranga1008/pxr-challenge/activity/scripts/train_v2_with_fingerprints_xgboost_optuna.py**
+- **/home/avranga1008/pxr-challenge/activity/scripts/build_train_modeling_matrix_v2.py**
+- **/home/avranga1008/pxr-challenge/activity/outputs/submission_11_rwpe/pretrain/pretrain_summary.json**
+- **/home/avranga1008/pxr-challenge/activity/outputs/submission_11_rwpe/pretrain/pretrain_manifest.json**
+- **/home/avranga1008/pxr-challenge/activity/outputs/submission_11_rwpe/ensemble_3way/ensemble_metadata.json**
+- **/home/avranga1008/pxr-challenge/activity/outputs/submission_11_rwpe/finetune/finetune_manifest.json**
+- **/home/avranga1008/pxr-challenge/activity/outputs/submission_11_rwpe/finetune/finetune_summary.json**
+- **/home/avranga1008/pxr-challenge/activity/outputs/submission_11_rwpe/eval/holdout_metrics.json**
+- **/home/avranga1008/pxr-challenge/activity/outputs/finalist_predictions/xgboost_champion_fulltrain_run_config.json**
+- **/home/avranga1008/pxr-challenge/activity/outputs/finalist_predictions/run_metadata.json**
+- **/home/avranga1008/pxr-challenge/activity/outputs/submission_08_contrastive_pretraining/smoke/pretrain/pretrain_contrastive_summary.json**
+- **/home/avranga1008/pxr-challenge/activity/outputs/submission_08_contrastive_pretraining/smoke/pretrain/pretrain_contrastive_manifest.json**
+- **/home/avranga1008/pxr-challenge/activity/outputs/submission_08_contrastive_pretraining/features/feature_matrix_report.json**
+- **/home/avranga1008/pxr-challenge/activity/outputs/submission_08_contrastive_pretraining/features/export_report.json**
+- **/home/avranga1008/pxr-challenge/activity/outputs/submission_08_contrastive_pretraining/model/xgb_lf_embed_trainonly.json**
+- **/home/avranga1008/pxr-challenge/activity/outputs/submission_08_contrastive_pretraining/model/xgb_lf_embed_fulltrain.json**
+- **/home/avranga1008/pxr-challenge/activity/outputs/submission_08_contrastive_pretraining/pretrain/pretrain_contrastive_summary.json**
+- **/home/avranga1008/pxr-challenge/activity/outputs/submission_08_contrastive_pretraining/pretrain/pretrain_contrastive_manifest.json**
+- **/home/avranga1008/pxr-challenge/activity/outputs/submission_08_contrastive_pretraining/eval/holdout_metrics.json**
+- **/home/avranga1008/pxr-challenge/activity/outputs/xgboost_lf_8_33/lf_signal_33uM/model.json**
+- **/home/avranga1008/pxr-challenge/activity/outputs/xgboost_lf_8_33/lf_signal_33uM/metrics.json**
+- **/home/avranga1008/pxr-challenge/activity/outputs/xgboost_lf_8_33/lf_signal_8uM/model.json**
+- **/home/avranga1008/pxr-challenge/activity/outputs/xgboost_lf_8_33/lf_signal_8uM/metrics.json**
+- **/home/avranga1008/pxr-challenge/activity/outputs/xgboost_lf_8_33/run_config.json**
+- **/home/avranga1008/pxr-challenge/activity/outputs/xgboost_lf_8_33/splits.json**
+- **/home/avranga1008/pxr-challenge/activity/outputs/xgboost_lf_8_33_optuna/lf_signal_33uM/model.json**
+- **/home/avranga1008/pxr-challenge/activity/outputs/xgboost_lf_8_33_optuna/lf_signal_33uM/metrics.json**
+- **/home/avranga1008/pxr-challenge/activity/outputs/xgboost_lf_8_33_optuna/lf_signal_8uM/model.json**
+- **/home/avranga1008/pxr-challenge/activity/outputs/xgboost_lf_8_33_optuna/lf_signal_8uM/metrics.json**
+- **/home/avranga1008/pxr-challenge/activity/outputs/xgboost_lf_8_33_optuna/run_config.json**
+- **/home/avranga1008/pxr-challenge/activity/outputs/eda/target_quality/README.md**
+- **/home/avranga1008/pxr-challenge/activity/outputs/submission_05_vgae_hf_pEC50/submission/submission_05_vgae_run_config.json**
+- **/home/avranga1008/pxr-challenge/activity/outputs/submission_05_vgae_hf_pEC50/finetune_manifest.json**
+- **/home/avranga1008/pxr-challenge/activity/outputs/submission_05_vgae_hf_pEC50/finetune_summary.json**
+- **/home/avranga1008/pxr-challenge/activity/outputs/submission_05_vgae_hf_pEC50/eval/holdout_metrics.json**
+- **/home/avranga1008/pxr-challenge/activity/outputs/chemprop_lf_regression_8_33_tuning/run_01_depth3_h300_drop01/model_0/trainer_logs/version_0/hparams.yaml**
+- **/home/avranga1008/pxr-challenge/activity/outputs/chemprop_lf_regression_8_33_tuning/run_01_depth3_h300_drop01/splits.json**
+- **/home/avranga1008/pxr-challenge/activity/outputs/chemprop_lf_regression_8_33_tuning/run_06_depth5_h600_ffn2_drop02/model_0/trainer_logs/version_0/hparams.yaml**
+- **/home/avranga1008/pxr-challenge/activity/outputs/chemprop_lf_regression_8_33_tuning/run_06_depth5_h600_ffn2_drop02/splits.json**
+- **/home/avranga1008/pxr-challenge/activity/outputs/chemprop_lf_regression_8_33_tuning/run_05_depth4_h600_drop02/model_0/trainer_logs/version_0/hparams.yaml**
+- **/home/avranga1008/pxr-challenge/activity/outputs/chemprop_lf_regression_8_33_tuning/run_05_depth4_h600_drop02/splits.json**
+- **/home/avranga1008/pxr-challenge/activity/outputs/chemprop_lf_regression_8_33_tuning/run_04_depth4_h600_drop01/model_0/trainer_logs/version_0/hparams.yaml**
+- **/home/avranga1008/pxr-challenge/activity/outputs/chemprop_lf_regression_8_33_tuning/run_04_depth4_h600_drop01/splits.json**
+- **/home/avranga1008/pxr-challenge/activity/outputs/chemprop_lf_regression_8_33_tuning/run_03_depth5_h300_drop01/model_0/trainer_logs/version_0/hparams.yaml**
+- **/home/avranga1008/pxr-challenge/activity/outputs/chemprop_lf_regression_8_33_tuning/run_03_depth5_h300_drop01/splits.json**
+- **/home/avranga1008/pxr-challenge/activity/outputs/chemprop_lf_regression_8_33_tuning/run_02_depth4_h300_drop01/model_0/trainer_logs/version_0/hparams.yaml**
+- **/home/avranga1008/pxr-challenge/activity/outputs/chemprop_lf_regression_8_33_tuning/run_02_depth4_h300_drop01/splits.json**
+- **/home/avranga1008/pxr-challenge/activity/outputs/submission_05_vgae_lf_8uM/pretrain_summary.json**
+- **/home/avranga1008/pxr-challenge/activity/outputs/submission_05_vgae_lf_8uM/pretrain_manifest.json**
+- **/home/avranga1008/pxr-challenge/activity/outputs/submission_10_graphmae/features/feature_matrix_report.json**
+- **/home/avranga1008/pxr-challenge/activity/outputs/submission_10_graphmae/features/export_report.json**
+- **/home/avranga1008/pxr-challenge/activity/outputs/submission_10_graphmae/model/xgb_lf_embed_trainonly.json**
+- **/home/avranga1008/pxr-challenge/activity/outputs/submission_10_graphmae/model/xgb_lf_embed_fulltrain.json**
+- **/home/avranga1008/pxr-challenge/activity/outputs/submission_10_graphmae/pretrain/pretrain_graphmae_manifest.json**
+- **/home/avranga1008/pxr-challenge/activity/outputs/submission_10_graphmae/pretrain/pretrain_graphmae_summary.json**
+- **/home/avranga1008/pxr-challenge/activity/outputs/submission_10_graphmae/eval/holdout_metrics.json**
+- **/home/avranga1008/pxr-challenge/activity/outputs/chemprop_lf_regression_8_33_chemeleon/model_0/trainer_logs/version_0/hparams.yaml**
+- **/home/avranga1008/pxr-challenge/activity/outputs/chemprop_lf_regression_8_33_chemeleon/splits.json**
+- **/home/avranga1008/pxr-challenge/activity/outputs/submission_05_vgae_hf_pEC50_smoke3/finetune_manifest.json**
+- **/home/avranga1008/pxr-challenge/activity/outputs/submission_05_vgae_hf_pEC50_smoke3/finetune_summary.json**
+- **/home/avranga1008/pxr-challenge/activity/outputs/submission_05_vgae_hf_pEC50_smoke5/finetune_manifest.json**
+- **/home/avranga1008/pxr-challenge/activity/outputs/submission_05_vgae_hf_pEC50_smoke5/finetune_summary.json**
+- **/home/avranga1008/pxr-challenge/activity/outputs/submission_07_xgboost_lf_embeddings/features/feature_matrix_report.json**
+- **/home/avranga1008/pxr-challenge/activity/outputs/submission_07_xgboost_lf_embeddings/features/export_report.json**
+- **/home/avranga1008/pxr-challenge/activity/outputs/submission_07_xgboost_lf_embeddings/model/xgb_lf_embed_trainonly.json**
+- **/home/avranga1008/pxr-challenge/activity/outputs/submission_07_xgboost_lf_embeddings/model/xgb_lf_embed_fulltrain.json**
+- **/home/avranga1008/pxr-challenge/activity/outputs/submission_07_xgboost_lf_embeddings/eval/holdout_metrics.json**
+- **/home/avranga1008/pxr-challenge/activity/outputs/submission_04_vgae_embeddings/features/feature_matrix_report.json**
+- **/home/avranga1008/pxr-challenge/activity/outputs/submission_04_vgae_embeddings/features/export_report.json**
+- **/home/avranga1008/pxr-challenge/activity/outputs/submission_04_vgae_embeddings/README.md**
+- **/home/avranga1008/pxr-challenge/activity/outputs/submission_04_vgae_embeddings/model/xgb_champion_vgae_trainonly.json**
+- **/home/avranga1008/pxr-challenge/activity/outputs/submission_04_vgae_embeddings/model/train_report.json**
+- **/home/avranga1008/pxr-challenge/activity/outputs/submission_04_vgae_embeddings/model/xgb_champion_vgae_fulltrain.json**
+- **/home/avranga1008/pxr-challenge/activity/outputs/submission_04_vgae_embeddings/pretrain/pretrain_summary.json**
+- **/home/avranga1008/pxr-challenge/activity/outputs/submission_04_vgae_embeddings/pretrain/build_report.json**
+- **/home/avranga1008/pxr-challenge/activity/outputs/submission_04_vgae_embeddings/pretrain/pretrain_manifest.json**
+- **/home/avranga1008/pxr-challenge/activity/outputs/submission_04_vgae_embeddings/submission/workflow_report.json**
+- **/home/avranga1008/pxr-challenge/activity/outputs/submission_04_vgae_embeddings/submission/submission_04_run_config.json**
+- **/home/avranga1008/pxr-challenge/activity/outputs/submission_04_vgae_embeddings/eval/holdout_metrics.json**
+- **/home/avranga1008/pxr-challenge/activity/outputs/submission_06_set_transformer/smoke/pretrain/pretrain_summary.json**
+- **/home/avranga1008/pxr-challenge/activity/outputs/submission_06_set_transformer/smoke/pretrain/pretrain_manifest.json**
+- **/home/avranga1008/pxr-challenge/activity/outputs/submission_06_set_transformer/smoke/finetune/finetune_manifest.json**
+- **/home/avranga1008/pxr-challenge/activity/outputs/submission_06_set_transformer/smoke/finetune/finetune_summary.json**
+- **/home/avranga1008/pxr-challenge/activity/outputs/submission_06_set_transformer/smoke/submission/submission_06_vgae_run_config.json**
+- **/home/avranga1008/pxr-challenge/activity/outputs/submission_06_set_transformer/smoke/eval/holdout_metrics.json**
+- **/home/avranga1008/pxr-challenge/activity/outputs/submission_06_set_transformer/pretrain/pretrain_summary.json**
+- **/home/avranga1008/pxr-challenge/activity/outputs/submission_06_set_transformer/pretrain/pretrain_manifest.json**
+- **/home/avranga1008/pxr-challenge/activity/outputs/submission_06_set_transformer/finetune/finetune_manifest.json**
+- **/home/avranga1008/pxr-challenge/activity/outputs/submission_06_set_transformer/finetune/finetune_summary.json**
+- **/home/avranga1008/pxr-challenge/activity/outputs/submission_06_set_transformer/submission/submission_06_vgae_run_config.json**
+- **/home/avranga1008/pxr-challenge/activity/outputs/submission_06_set_transformer/eval/holdout_metrics.json**
+- **/home/avranga1008/pxr-challenge/activity/outputs/low_fidelity_33uM_gnn/final_report.json**
+- **/home/avranga1008/pxr-challenge/activity/outputs/low_fidelity_33uM_gnn/featurization_summary.json**
+- **/home/avranga1008/pxr-challenge/activity/outputs/low_fidelity_33uM_gnn/training_manifest.json**
+- **/home/avranga1008/pxr-challenge/activity/outputs/low_fidelity_33uM_gnn/training_summary.json**
+- **/home/avranga1008/pxr-challenge/activity/outputs/low_fidelity_33uM_gnn/graph_dataset_summary.json**
+- **/home/avranga1008/pxr-challenge/activity/outputs/low_fidelity_33uM_gnn/export_manifest.json**
+- **/home/avranga1008/pxr-challenge/activity/outputs/xgboost_lf_8_33_optuna_val_best/lf_signal_33uM/model.json**
+- **/home/avranga1008/pxr-challenge/activity/outputs/xgboost_lf_8_33_optuna_val_best/lf_signal_33uM/metrics.json**
+- **/home/avranga1008/pxr-challenge/activity/outputs/xgboost_lf_8_33_optuna_val_best/lf_signal_8uM/model.json**
+- **/home/avranga1008/pxr-challenge/activity/outputs/xgboost_lf_8_33_optuna_val_best/lf_signal_8uM/metrics.json**
+- **/home/avranga1008/pxr-challenge/activity/outputs/xgboost_lf_8_33_optuna_val_best/run_config.json**
+- **/home/avranga1008/pxr-challenge/activity/outputs/submission_05_vgae_lf_8uM_smoke/pretrain_summary.json**
+- **/home/avranga1008/pxr-challenge/activity/outputs/submission_05_vgae_lf_8uM_smoke/pretrain_manifest.json**
+- **/home/avranga1008/pxr-challenge/activity/outputs/submission_09_ensemble_sub7_sub8/eval/holdout_metrics_ensemble_sub7_0.645_sub8_0.355.json**
+- **/home/avranga1008/pxr-challenge/activity/outputs/submission_09_ensemble_sub7_sub8/eval/holdout_metrics_ensemble.json**
+- **/home/avranga1008/pxr-challenge/activity/outputs/submission_09_ensemble_sub7_sub8/eval/holdout_metrics_ensemble_sub7_0.64_sub8_0.36.json**
+- **/home/avranga1008/pxr-challenge/activity/outputs/submission_09_ensemble_sub7_sub8/eval/holdout_metrics_ensemble_sub7_0.75_sub8_0.25.json**
+- **/home/avranga1008/pxr-challenge/activity/outputs/submission_09_ensemble_sub7_sub8/eval/holdout_metrics_ensemble_sub7_0.50_sub8_0.50.json**
+- **/home/avranga1008/pxr-challenge/activity/outputs/chemprop_lf_regression_8_33/model_0/trainer_logs/version_0/hparams.yaml**
+- **/home/avranga1008/pxr-challenge/activity/outputs/chemprop_lf_regression_8_33/splits.json**
+- **/home/avranga1008/pxr-challenge/activity/outputs/_gpu_smoke/cpu_verify_lazy_torch/training_manifest.json**
+- **/home/avranga1008/pxr-challenge/activity/outputs/_gpu_smoke/cpu_verify_lazy_torch/training_summary.json**
+- **/home/avranga1008/pxr-challenge/activity/outputs/_gpu_smoke/low_fidelity_8uM_20260422_194826/training_manifest.json**
+- **/home/avranga1008/pxr-challenge/activity/outputs/_gpu_smoke/low_fidelity_8uM_20260422_194826/training_summary.json**
+- **/home/avranga1008/pxr-challenge/activity/outputs/_gpu_smoke/cpu_verify_20260421_180830/training_manifest.json**
+- **/home/avranga1008/pxr-challenge/activity/outputs/_gpu_smoke/cpu_verify_20260421_180830/training_summary.json**
+- **/home/avranga1008/pxr-challenge/activity/outputs/_gpu_smoke/cpu_verify_isolated_20260421_190120/training_manifest.json**
+- **/home/avranga1008/pxr-challenge/activity/outputs/_gpu_smoke/cpu_verify_isolated_20260421_190120/training_summary.json**
+- **/home/avranga1008/pxr-challenge/activity/outputs/_gpu_smoke/low_fidelity_8uM_20260421_180818/training_manifest.json**
+- **/home/avranga1008/pxr-challenge/activity/outputs/_gpu_smoke/low_fidelity_8uM_20260421_180818/training_summary.json**
+- **/home/avranga1008/pxr-challenge/activity/outputs/model_runs/pxr_v2_with_fingerprints__xgboost__desc_plus_charge_fp__total_error/run_config.json**
+- **/home/avranga1008/pxr-challenge/activity/outputs/model_runs/pxr_v2_with_fingerprints_xgboost_sweep1__xgboost__desc_plus_charge_fp__total_error/run_config.json**
+- **/home/avranga1008/pxr-challenge/activity/outputs/model_runs/rf__desc_plus_charge__none__n800_depthNone_leaf3_f02/run_config.json**
+- **/home/avranga1008/pxr-challenge/activity/outputs/model_runs/hgb__desc_only__none__lr0.05_leaf31_depthNone_min20_l20/run_config.json**
+- **/home/avranga1008/pxr-challenge/activity/outputs/model_runs/hgb__desc_only__none/run_config.json**
+- **/home/avranga1008/pxr-challenge/activity/outputs/model_runs/rf__desc_plus_charge__inv_var/run_config.json**
+- **/home/avranga1008/pxr-challenge/activity/outputs/model_runs/rf__desc_plus_charge__none__n1200_depthNone_leaf1_sqrt/run_config.json**
+- **/home/avranga1008/pxr-challenge/activity/outputs/model_runs/hgb__desc_only__none__lr0.03_leaf63_depthNone_min20_l20/run_config.json**
+- **/home/avranga1008/pxr-challenge/activity/outputs/model_runs/ridge__desc_only__none__smoke2/run_config.json**
+- **/home/avranga1008/pxr-challenge/activity/outputs/model_runs/hgb__desc_plus_charge__none/run_config.json**
+- **/home/avranga1008/pxr-challenge/activity/outputs/model_runs/rf__desc_plus_charge__none__n800_depthNone_leaf1_sqrt/run_config.json**
+- **/home/avranga1008/pxr-challenge/activity/outputs/model_runs/rf__desc_plus_charge__none__n800_depthNone_leaf5_f02/run_config.json**
+- **/home/avranga1008/pxr-challenge/activity/outputs/model_runs/random_forest__desc_plus_charge__total_error/run_config.json**
+- **/home/avranga1008/pxr-challenge/activity/outputs/model_runs/rf__desc_plus_charge__none__n1200_depthNone_leaf3_f03/run_config.json**
+- **/home/avranga1008/pxr-challenge/activity/outputs/model_runs/rf__sqlite_smoke/run_config.json**
+- **/home/avranga1008/pxr-challenge/activity/outputs/model_runs/rf__desc_plus_charge__none/run_config.json**
+- **/home/avranga1008/pxr-challenge/activity/outputs/model_runs/rf__desc_plus_charge__none__n800_depthNone_leaf3_f03/run_config.json**
+- **/home/avranga1008/pxr-challenge/activity/outputs/model_runs/pxr_v2_with_fingerprints__xgboost__desc_plus_charge_fp__total_error__seed123/run_config.json**
+- **/home/avranga1008/pxr-challenge/activity/outputs/model_runs/rf__desc_plus_charge__none__n800_depth24_leaf3_sqrt/run_config.json**
+- **/home/avranga1008/pxr-challenge/activity/outputs/model_runs/rf__desc_only__none/run_config.json**
+- **/home/avranga1008/pxr-challenge/activity/outputs/model_runs/rf__desc_plus_charge__none__n800_depth24_leaf1_sqrt/run_config.json**
+- **/home/avranga1008/pxr-challenge/activity/outputs/model_runs/rf__desc_plus_charge__none__n1200_depth24_leaf3_f03/run_config.json**
+- **/home/avranga1008/pxr-challenge/activity/outputs/model_runs/pxr_v2_without_fingerprints__hist_gbm__desc_plus_charge__total_error/run_config.json**
+- **/home/avranga1008/pxr-challenge/activity/outputs/model_runs/hgb__desc_plus_charge__inv_var/run_config.json**
+- **/home/avranga1008/pxr-challenge/activity/outputs/model_runs/rf__desc_only__none__smoke1/run_config.json**
+- **/home/avranga1008/pxr-challenge/activity/outputs/model_runs/hgb__desc_only__none__lr0.05_leaf63_depth8_min20_l21/run_config.json**
+- **/home/avranga1008/pxr-challenge/activity/outputs/model_runs/pxr_v2_with_fingerprints__hist_gbm__desc_plus_charge_fp__total_error/run_config.json**
+- **/home/avranga1008/pxr-challenge/activity/outputs/model_runs/rf__desc_plus_charge__none__n1200_depthNone_leaf5_f03/run_config.json**
+- **/home/avranga1008/pxr-challenge/activity/outputs/model_runs/hgb__desc_only__none__lr0.03_leaf31_depthNone_min50_l21/run_config.json**
+- **/home/avranga1008/pxr-challenge/activity/outputs/model_runs/ridge__desc_only__none/run_config.json**
+- **/home/avranga1008/pxr-challenge/activity/outputs/model_runs/pxr_v2_with_fingerprints_hgb_sweep2__hist_gbm__desc_plus_charge_fp__total_error/run_config.json**
+- **/home/avranga1008/pxr-challenge/activity/outputs/submission_09_blend_embeddings/features/feature_matrix_report.json**
+- **/home/avranga1008/pxr-challenge/activity/outputs/submission_09_blend_embeddings/model/xgb_blend_trainonly.json**
+- **/home/avranga1008/pxr-challenge/activity/outputs/submission_09_blend_embeddings/model/xgb_blend_fulltrain.json**
+- **/home/avranga1008/pxr-challenge/activity/outputs/submission_09_blend_embeddings/eval/holdout_metrics.json**
+- **/home/avranga1008/pxr-challenge/activity/outputs/low_fidelity_8uM_gnn/final_report.json**
+- **/home/avranga1008/pxr-challenge/activity/outputs/low_fidelity_8uM_gnn/featurization_summary.json**
+- **/home/avranga1008/pxr-challenge/activity/outputs/low_fidelity_8uM_gnn/training_manifest.json**
+- **/home/avranga1008/pxr-challenge/activity/outputs/low_fidelity_8uM_gnn/training_summary.json**
+- **/home/avranga1008/pxr-challenge/activity/outputs/low_fidelity_8uM_gnn/graph_dataset_summary.json**
+- **/home/avranga1008/pxr-challenge/activity/outputs/low_fidelity_8uM_gnn/export_manifest.json**
+- **/home/avranga1008/pxr-challenge/activity/outputs/low_fidelity_butina_split/split_manifest.json**
+- **/home/avranga1008/pxr-challenge/activity/outputs/mlruns/1/models/m-f1824c3c8d2a469d9334b4580c1483bb/artifacts/python_env.yaml**
+- **/home/avranga1008/pxr-challenge/activity/outputs/mlruns/1/models/m-f1824c3c8d2a469d9334b4580c1483bb/artifacts/conda.yaml**
+- **/home/avranga1008/pxr-challenge/activity/outputs/mlruns/1/20e2a7d56b5747eba817c02f86000d2c/artifacts/run_config.json**
+- **/home/avranga1008/pxr-challenge/activity/data/features/.mplconfig/fontlist-v390.json**
+- **/home/avranga1008/pxr-challenge/activity/data/features/single_dose_chemprop/README.md**
+- **/home/avranga1008/pxr-challenge/activity/data/features/generate_v1_cluster_split_review.py**
+- **/home/avranga1008/pxr-challenge/activity/analysis/counter_delta/analyze_counter_selectivity.py**
+- **/home/avranga1008/pxr-challenge/activity/mlruns/0/meta.yaml**
+- **/home/avranga1008/pxr-challenge/activity/mlruns/290829248547885119/3fd47a31d0f3405b9b0ba2be19fa5482/meta.yaml**
+- **/home/avranga1008/pxr-challenge/activity/mlruns/290829248547885119/3fd47a31d0f3405b9b0ba2be19fa5482/outputs/m-1403df5ee2e14a3784e54ef6484edd97/meta.yaml**
+- **/home/avranga1008/pxr-challenge/activity/mlruns/290829248547885119/3fd47a31d0f3405b9b0ba2be19fa5482/artifacts/run_config.json**
+- **/home/avranga1008/pxr-challenge/activity/mlruns/290829248547885119/bf5178c1c44f4d0793301f17226c6e63/meta.yaml**
+- **/home/avranga1008/pxr-challenge/activity/mlruns/290829248547885119/bf5178c1c44f4d0793301f17226c6e63/outputs/m-9207cb38da514d91a5f21190d1fa120b/meta.yaml**
+- **/home/avranga1008/pxr-challenge/activity/mlruns/290829248547885119/bf5178c1c44f4d0793301f17226c6e63/artifacts/run_config.json**
+- **/home/avranga1008/pxr-challenge/activity/mlruns/290829248547885119/models/m-e831f4d6a99842aba8deef74b1ff232f/meta.yaml**
+- **/home/avranga1008/pxr-challenge/activity/mlruns/290829248547885119/models/m-e831f4d6a99842aba8deef74b1ff232f/artifacts/python_env.yaml**
+- **/home/avranga1008/pxr-challenge/activity/mlruns/290829248547885119/models/m-e831f4d6a99842aba8deef74b1ff232f/artifacts/conda.yaml**
+- **/home/avranga1008/pxr-challenge/activity/mlruns/290829248547885119/models/m-53862458122e404782c69326294cdf43/meta.yaml**
+- **/home/avranga1008/pxr-challenge/activity/mlruns/290829248547885119/models/m-53862458122e404782c69326294cdf43/artifacts/python_env.yaml**
+- **/home/avranga1008/pxr-challenge/activity/mlruns/290829248547885119/models/m-53862458122e404782c69326294cdf43/artifacts/conda.yaml**
+- **/home/avranga1008/pxr-challenge/activity/mlruns/290829248547885119/models/m-55a9e849b1074771aec34214e91e11b7/meta.yaml**
+- **/home/avranga1008/pxr-challenge/activity/mlruns/290829248547885119/models/m-55a9e849b1074771aec34214e91e11b7/artifacts/python_env.yaml**
+- **/home/avranga1008/pxr-challenge/activity/mlruns/290829248547885119/models/m-55a9e849b1074771aec34214e91e11b7/artifacts/conda.yaml**
+- **/home/avranga1008/pxr-challenge/activity/mlruns/290829248547885119/models/m-9207cb38da514d91a5f21190d1fa120b/meta.yaml**
+- **/home/avranga1008/pxr-challenge/activity/mlruns/290829248547885119/models/m-9207cb38da514d91a5f21190d1fa120b/artifacts/python_env.yaml**
+- **/home/avranga1008/pxr-challenge/activity/mlruns/290829248547885119/models/m-9207cb38da514d91a5f21190d1fa120b/artifacts/conda.yaml**
+- **/home/avranga1008/pxr-challenge/activity/mlruns/290829248547885119/models/m-6909239811574f17af538307f67a4cda/meta.yaml**
+- **/home/avranga1008/pxr-challenge/activity/mlruns/290829248547885119/models/m-6909239811574f17af538307f67a4cda/artifacts/python_env.yaml**
+- **/home/avranga1008/pxr-challenge/activity/mlruns/290829248547885119/models/m-6909239811574f17af538307f67a4cda/artifacts/conda.yaml**
+- **/home/avranga1008/pxr-challenge/activity/mlruns/290829248547885119/models/m-e1aed0f83423416bbfe5a3373fcc0409/meta.yaml**
+- **/home/avranga1008/pxr-challenge/activity/mlruns/290829248547885119/models/m-e1aed0f83423416bbfe5a3373fcc0409/artifacts/python_env.yaml**
+- **/home/avranga1008/pxr-challenge/activity/mlruns/290829248547885119/models/m-e1aed0f83423416bbfe5a3373fcc0409/artifacts/conda.yaml**
+- **/home/avranga1008/pxr-challenge/activity/mlruns/290829248547885119/models/m-5f395c8822db4c97816ea454dccade5f/meta.yaml**
+- **/home/avranga1008/pxr-challenge/activity/mlruns/290829248547885119/models/m-5f395c8822db4c97816ea454dccade5f/artifacts/python_env.yaml**
+- **/home/avranga1008/pxr-challenge/activity/mlruns/290829248547885119/models/m-5f395c8822db4c97816ea454dccade5f/artifacts/conda.yaml**
+- **/home/avranga1008/pxr-challenge/activity/mlruns/290829248547885119/models/m-d1487c78e7f6476e97b82f405c8ca490/meta.yaml**
+- **/home/avranga1008/pxr-challenge/activity/mlruns/290829248547885119/models/m-d1487c78e7f6476e97b82f405c8ca490/artifacts/python_env.yaml**
+- **/home/avranga1008/pxr-challenge/activity/mlruns/290829248547885119/models/m-d1487c78e7f6476e97b82f405c8ca490/artifacts/conda.yaml**
+- **/home/avranga1008/pxr-challenge/activity/mlruns/290829248547885119/models/m-1403df5ee2e14a3784e54ef6484edd97/meta.yaml**
+- **/home/avranga1008/pxr-challenge/activity/mlruns/290829248547885119/models/m-1403df5ee2e14a3784e54ef6484edd97/artifacts/python_env.yaml**
+- **/home/avranga1008/pxr-challenge/activity/mlruns/290829248547885119/models/m-1403df5ee2e14a3784e54ef6484edd97/artifacts/conda.yaml**
+- **/home/avranga1008/pxr-challenge/activity/mlruns/290829248547885119/d6a0311256e74c3786d3757ad7a2f939/meta.yaml**
+- **/home/avranga1008/pxr-challenge/activity/mlruns/290829248547885119/d6a0311256e74c3786d3757ad7a2f939/outputs/m-e831f4d6a99842aba8deef74b1ff232f/meta.yaml**
+- **/home/avranga1008/pxr-challenge/activity/mlruns/290829248547885119/d6a0311256e74c3786d3757ad7a2f939/artifacts/run_config.json**
+- **/home/avranga1008/pxr-challenge/activity/mlruns/290829248547885119/meta.yaml**
+- **/home/avranga1008/pxr-challenge/activity/mlruns/290829248547885119/4a27bb577a874e27be1d688efdcd3f25/meta.yaml**
+- **/home/avranga1008/pxr-challenge/activity/mlruns/290829248547885119/4a27bb577a874e27be1d688efdcd3f25/outputs/m-55a9e849b1074771aec34214e91e11b7/meta.yaml**
+- **/home/avranga1008/pxr-challenge/activity/mlruns/290829248547885119/4a27bb577a874e27be1d688efdcd3f25/artifacts/run_config.json**
+- **/home/avranga1008/pxr-challenge/activity/mlruns/290829248547885119/34236b39b75f4a3ca0c911e5b947ba88/meta.yaml**
+- **/home/avranga1008/pxr-challenge/activity/mlruns/290829248547885119/34236b39b75f4a3ca0c911e5b947ba88/outputs/m-53862458122e404782c69326294cdf43/meta.yaml**
+- **/home/avranga1008/pxr-challenge/activity/mlruns/290829248547885119/34236b39b75f4a3ca0c911e5b947ba88/artifacts/run_config.json**
+- **/home/avranga1008/pxr-challenge/activity/mlruns/290829248547885119/7868038cd74141be8ee202b7aa71dd4a/meta.yaml**
+- **/home/avranga1008/pxr-challenge/activity/mlruns/290829248547885119/7868038cd74141be8ee202b7aa71dd4a/outputs/m-6909239811574f17af538307f67a4cda/meta.yaml**
+- **/home/avranga1008/pxr-challenge/activity/mlruns/290829248547885119/7868038cd74141be8ee202b7aa71dd4a/artifacts/run_config.json**
+- **/home/avranga1008/pxr-challenge/activity/mlruns/290829248547885119/b3bbbcf5d35f4b2d9b7a0cb67443ca26/meta.yaml**
+- **/home/avranga1008/pxr-challenge/activity/mlruns/290829248547885119/b3bbbcf5d35f4b2d9b7a0cb67443ca26/outputs/m-d1487c78e7f6476e97b82f405c8ca490/meta.yaml**
+- **/home/avranga1008/pxr-challenge/activity/mlruns/290829248547885119/b3bbbcf5d35f4b2d9b7a0cb67443ca26/artifacts/run_config.json**
+- **/home/avranga1008/pxr-challenge/activity/mlruns/290829248547885119/be8b01259faf40a1ab32552eb5eb5072/meta.yaml**
+- **/home/avranga1008/pxr-challenge/activity/mlruns/290829248547885119/be8b01259faf40a1ab32552eb5eb5072/outputs/m-5f395c8822db4c97816ea454dccade5f/meta.yaml**
+- **/home/avranga1008/pxr-challenge/activity/mlruns/290829248547885119/be8b01259faf40a1ab32552eb5eb5072/artifacts/run_config.json**
+- **/home/avranga1008/pxr-challenge/activity/mlruns/290829248547885119/a25b98b1439244d4bd7d165a19c55e4a/meta.yaml**
+- **/home/avranga1008/pxr-challenge/activity/mlruns/290829248547885119/cbf801a0db964257add6f9022038dec7/meta.yaml**
+- **/home/avranga1008/pxr-challenge/activity/mlruns/290829248547885119/cbf801a0db964257add6f9022038dec7/outputs/m-e1aed0f83423416bbfe5a3373fcc0409/meta.yaml**
+- **/home/avranga1008/pxr-challenge/activity/mlruns/290829248547885119/cbf801a0db964257add6f9022038dec7/artifacts/run_config.json**
+- **/home/avranga1008/pxr-challenge/Bonafide/atom-bond-featurizer/bonafide_env_dev.yml**
+- **/home/avranga1008/pxr-challenge/Bonafide/atom-bond-featurizer/README.md**
+- **/home/avranga1008/pxr-challenge/Bonafide/atom-bond-featurizer/.github/workflows/pytest_analysis.yml**
+- **/home/avranga1008/pxr-challenge/Bonafide/atom-bond-featurizer/.github/workflows/mypy_analysis.yml**
+- **/home/avranga1008/pxr-challenge/Bonafide/atom-bond-featurizer/.github/workflows/gh_pages.yml**
+- **/home/avranga1008/pxr-challenge/Bonafide/atom-bond-featurizer/examples/amine_workflow_single.py**
+- **/home/avranga1008/pxr-challenge/Bonafide/atom-bond-featurizer/examples/all_3D_features.py**
+- **/home/avranga1008/pxr-challenge/Bonafide/atom-bond-featurizer/examples/all_2D_features.py**
+- **/home/avranga1008/pxr-challenge/Bonafide/atom-bond-featurizer/examples/helper_functions.py**
+- **/home/avranga1008/pxr-challenge/Bonafide/atom-bond-featurizer/docs/conf.py**
+- **/home/avranga1008/pxr-challenge/Bonafide/atom-bond-featurizer/bonafide_env.yml**
+- **/home/avranga1008/pxr-challenge/Bonafide/atom-bond-featurizer/tests/__init__.py**
+- **/home/avranga1008/pxr-challenge/Bonafide/atom-bond-featurizer/tests/test_log_file_analysis.py**
+- **/home/avranga1008/pxr-challenge/Bonafide/atom-bond-featurizer/tests/conftest.py**
+- **/home/avranga1008/pxr-challenge/Bonafide/atom-bond-featurizer/tests/system/test_system.py**
+- **/home/avranga1008/pxr-challenge/Bonafide/atom-bond-featurizer/tests/system/data/passed3.json**
+- **/home/avranga1008/pxr-challenge/Bonafide/atom-bond-featurizer/tests/system/data/system_test_data2.json**
+- **/home/avranga1008/pxr-challenge/Bonafide/atom-bond-featurizer/tests/system/data/passed2.json**
+- **/home/avranga1008/pxr-challenge/Bonafide/atom-bond-featurizer/tests/system/data/system_test_data.json**
+- **/home/avranga1008/pxr-challenge/Bonafide/atom-bond-featurizer/tests/system/data/system_test_data3.json**
+- **/home/avranga1008/pxr-challenge/Bonafide/atom-bond-featurizer/tests/system/data/passed.json**
+- **/home/avranga1008/pxr-challenge/Bonafide/atom-bond-featurizer/tests/system/__init__.py**
+- **/home/avranga1008/pxr-challenge/Bonafide/atom-bond-featurizer/tests/system/system_test_data_files.json**
+- **/home/avranga1008/pxr-challenge/Bonafide/atom-bond-featurizer/tests/system/input_string_metadata.json**
+- **/home/avranga1008/pxr-challenge/Bonafide/atom-bond-featurizer/tests/utils/test_base_featurizer.py**
+- **/home/avranga1008/pxr-challenge/Bonafide/atom-bond-featurizer/tests/utils/test_driver.py**
+- **/home/avranga1008/pxr-challenge/Bonafide/atom-bond-featurizer/tests/utils/test_environment.py**
+- **/home/avranga1008/pxr-challenge/Bonafide/atom-bond-featurizer/tests/utils/test_base_mixin.py**
+- **/home/avranga1008/pxr-challenge/Bonafide/atom-bond-featurizer/tests/utils/test_custom_featurizer_input_validation.py**
+- **/home/avranga1008/pxr-challenge/Bonafide/atom-bond-featurizer/tests/utils/test_input_validation.py**
+- **/home/avranga1008/pxr-challenge/Bonafide/atom-bond-featurizer/tests/utils/test_molecule_vault.py**
+- **/home/avranga1008/pxr-challenge/Bonafide/atom-bond-featurizer/tests/utils/test_sp_psi4.py**
+- **/home/avranga1008/pxr-challenge/Bonafide/atom-bond-featurizer/tests/utils/test_sp_xtb.py**
+- **/home/avranga1008/pxr-challenge/Bonafide/atom-bond-featurizer/tests/utils/test_helper_functions.py**
+- **/home/avranga1008/pxr-challenge/Bonafide/atom-bond-featurizer/tests/utils/test_helper_functions_output.py**
+- **/home/avranga1008/pxr-challenge/Bonafide/atom-bond-featurizer/tests/utils/test_base_single_point.py**
+- **/home/avranga1008/pxr-challenge/Bonafide/atom-bond-featurizer/tests/utils/test_logging_format.py**
+- **/home/avranga1008/pxr-challenge/Bonafide/atom-bond-featurizer/tests/utils/test_feature_output.py**
+- **/home/avranga1008/pxr-challenge/Bonafide/atom-bond-featurizer/tests/utils/test_global_properties.py**
+- **/home/avranga1008/pxr-challenge/Bonafide/atom-bond-featurizer/tests/utils/test_io_.py**
+- **/home/avranga1008/pxr-challenge/Bonafide/atom-bond-featurizer/tests/utils/test_helper_functions_chemistry.py**
+- **/home/avranga1008/pxr-challenge/Bonafide/atom-bond-featurizer/tests/utils/test_dependencies.py**
+- **/home/avranga1008/pxr-challenge/Bonafide/atom-bond-featurizer/tests/bonafide_public_methods/test_bonafide_set_charge.py**
+- **/home/avranga1008/pxr-challenge/Bonafide/atom-bond-featurizer/tests/bonafide_public_methods/test_bonafide_clear_feature_cache.py**
+- **/home/avranga1008/pxr-challenge/Bonafide/atom-bond-featurizer/tests/bonafide_public_methods/test_bonafide_read_input.py**
+- **/home/avranga1008/pxr-challenge/Bonafide/atom-bond-featurizer/tests/bonafide_public_methods/test_bonafide_determine_bonds.py**
+- **/home/avranga1008/pxr-challenge/Bonafide/atom-bond-featurizer/tests/bonafide_public_methods/test_bonafide_attach_smiles.py**
+- **/home/avranga1008/pxr-challenge/Bonafide/atom-bond-featurizer/tests/bonafide_public_methods/test_bonafide_add_custom_featurizer.py**
+- **/home/avranga1008/pxr-challenge/Bonafide/atom-bond-featurizer/tests/bonafide_public_methods/test_bonafide_attach_electronic_structure.py**
+- **/home/avranga1008/pxr-challenge/Bonafide/atom-bond-featurizer/tests/bonafide_public_methods/test_bonafide_attach_energy.py**
+- **/home/avranga1008/pxr-challenge/Bonafide/atom-bond-featurizer/tests/bonafide_public_methods/test_bonafide_featurize.py**
+- **/home/avranga1008/pxr-challenge/Bonafide/atom-bond-featurizer/tests/bonafide_public_methods/test_bonafide_list_features.py**
+- **/home/avranga1008/pxr-challenge/Bonafide/atom-bond-featurizer/tests/bonafide_public_methods/test_bonafide_return_features.py**
+- **/home/avranga1008/pxr-challenge/Bonafide/atom-bond-featurizer/tests/bonafide_public_methods/test_bonafide_set_multiplicity.py**
+- **/home/avranga1008/pxr-challenge/Bonafide/atom-bond-featurizer/tests/bonafide_public_methods/test_bonafide_calculate_electronic_structure.py**
+- **/home/avranga1008/pxr-challenge/Bonafide/atom-bond-featurizer/tests/bonafide_public_methods/test_bonafide_set_options.py**
+- **/home/avranga1008/pxr-challenge/Bonafide/atom-bond-featurizer/tests/bonafide_public_methods/test_bonafide_print_options.py**
+- **/home/avranga1008/pxr-challenge/Bonafide/atom-bond-featurizer/tests/bonafide_public_methods/test_bonafide_show_molecule.py**
+- **/home/avranga1008/pxr-challenge/Bonafide/atom-bond-featurizer/tests/bonafide_public_methods/test_bonafide_init.py**
+- **/home/avranga1008/pxr-challenge/Bonafide/atom-bond-featurizer/src/bonafide/_bonafide_utils.py**
+- **/home/avranga1008/pxr-challenge/Bonafide/atom-bond-featurizer/src/bonafide/features/distance.py**
+- **/home/avranga1008/pxr-challenge/Bonafide/atom-bond-featurizer/src/bonafide/features/multiwfn_forces.py**
+- **/home/avranga1008/pxr-challenge/Bonafide/atom-bond-featurizer/src/bonafide/features/alfabet_.py**
+- **/home/avranga1008/pxr-challenge/Bonafide/atom-bond-featurizer/src/bonafide/features/autocorrelation.py**
+- **/home/avranga1008/pxr-challenge/Bonafide/atom-bond-featurizer/src/bonafide/features/multiwfn_spin_population.py**
+- **/home/avranga1008/pxr-challenge/Bonafide/atom-bond-featurizer/src/bonafide/features/multiwfn_hilbert_space.py**
+- **/home/avranga1008/pxr-challenge/Bonafide/atom-bond-featurizer/src/bonafide/features/multiwfn_partial_charge.py**
+- **/home/avranga1008/pxr-challenge/Bonafide/atom-bond-featurizer/src/bonafide/features/multiwfn_orbital.py**
+- **/home/avranga1008/pxr-challenge/Bonafide/atom-bond-featurizer/src/bonafide/features/symmetric_sites.py**
+- **/home/avranga1008/pxr-challenge/Bonafide/atom-bond-featurizer/src/bonafide/features/multiwfn_population_analysis.py**
+- **/home/avranga1008/pxr-challenge/Bonafide/atom-bond-featurizer/src/bonafide/features/morfeus_bv.py**
+- **/home/avranga1008/pxr-challenge/Bonafide/atom-bond-featurizer/src/bonafide/features/__init__.py**
+- **/home/avranga1008/pxr-challenge/Bonafide/atom-bond-featurizer/src/bonafide/features/dscribe_.py**
+- **/home/avranga1008/pxr-challenge/Bonafide/atom-bond-featurizer/src/bonafide/features/morfeus_sasa.py**
+- **/home/avranga1008/pxr-challenge/Bonafide/atom-bond-featurizer/src/bonafide/features/rdkit_atom.py**
+- **/home/avranga1008/pxr-challenge/Bonafide/atom-bond-featurizer/src/bonafide/features/qmdesc_.py**
+- **/home/avranga1008/pxr-challenge/Bonafide/atom-bond-featurizer/src/bonafide/features/multiwfn_fuzzy_space.py**
+- **/home/avranga1008/pxr-challenge/Bonafide/atom-bond-featurizer/src/bonafide/features/morfeus_solid_angle.py**
+- **/home/avranga1008/pxr-challenge/Bonafide/atom-bond-featurizer/src/bonafide/features/multiwfn_bond_misc.py**
+- **/home/avranga1008/pxr-challenge/Bonafide/atom-bond-featurizer/src/bonafide/features/spiro_bridgehead.py**
+- **/home/avranga1008/pxr-challenge/Bonafide/atom-bond-featurizer/src/bonafide/features/mendeleev_.py**
+- **/home/avranga1008/pxr-challenge/Bonafide/atom-bond-featurizer/src/bonafide/features/rdkit_bond.py**
+- **/home/avranga1008/pxr-challenge/Bonafide/atom-bond-featurizer/src/bonafide/features/constant_feature.py**
+- **/home/avranga1008/pxr-challenge/Bonafide/atom-bond-featurizer/src/bonafide/features/multiwfn_surface.py**
+- **/home/avranga1008/pxr-challenge/Bonafide/atom-bond-featurizer/src/bonafide/features/kallisto_.py**
+- **/home/avranga1008/pxr-challenge/Bonafide/atom-bond-featurizer/src/bonafide/features/morfeus_local_force.py**
+- **/home/avranga1008/pxr-challenge/Bonafide/atom-bond-featurizer/src/bonafide/features/rdkit_fingerprint.py**
+- **/home/avranga1008/pxr-challenge/Bonafide/atom-bond-featurizer/src/bonafide/features/xtb_fukui_misc.py**
+- **/home/avranga1008/pxr-challenge/Bonafide/atom-bond-featurizer/src/bonafide/features/xtb_cdft.py**
+- **/home/avranga1008/pxr-challenge/Bonafide/atom-bond-featurizer/src/bonafide/features/multiwfn_population.py**
+- **/home/avranga1008/pxr-challenge/Bonafide/atom-bond-featurizer/src/bonafide/features/morfeus_cone_angle.py**
+- **/home/avranga1008/pxr-challenge/Bonafide/atom-bond-featurizer/src/bonafide/features/multiwfn_topology_atom.py**
+- **/home/avranga1008/pxr-challenge/Bonafide/atom-bond-featurizer/src/bonafide/features/multiwfn_cdft.py**
+- **/home/avranga1008/pxr-challenge/Bonafide/atom-bond-featurizer/src/bonafide/features/functional_group.py**
+- **/home/avranga1008/pxr-challenge/Bonafide/atom-bond-featurizer/src/bonafide/features/morfeus_dispersion.py**
+- **/home/avranga1008/pxr-challenge/Bonafide/atom-bond-featurizer/src/bonafide/features/multiwfn_misc.py**
+- **/home/avranga1008/pxr-challenge/Bonafide/atom-bond-featurizer/src/bonafide/features/multiwfn_bond.py**
+- **/home/avranga1008/pxr-challenge/Bonafide/atom-bond-featurizer/src/bonafide/features/multiwfn_connectivity.py**
+- **/home/avranga1008/pxr-challenge/Bonafide/atom-bond-featurizer/src/bonafide/features/multiwfn_topology_bond.py**
+- **/home/avranga1008/pxr-challenge/Bonafide/atom-bond-featurizer/src/bonafide/features/oxidation_state.py**
+- **/home/avranga1008/pxr-challenge/Bonafide/atom-bond-featurizer/src/bonafide/features/morfeus_pyramidalization.py**
+- **/home/avranga1008/pxr-challenge/Bonafide/atom-bond-featurizer/src/bonafide/features/dbstep_.py**
+- **/home/avranga1008/pxr-challenge/Bonafide/atom-bond-featurizer/src/bonafide/features/multiwfn_fukui.py**
+- **/home/avranga1008/pxr-challenge/Bonafide/atom-bond-featurizer/src/bonafide/bonafide.py**
+- **/home/avranga1008/pxr-challenge/Bonafide/atom-bond-featurizer/src/bonafide/_bonafide.py**
+- **/home/avranga1008/pxr-challenge/Bonafide/atom-bond-featurizer/src/bonafide/__init__.py**
+- **/home/avranga1008/pxr-challenge/Bonafide/atom-bond-featurizer/src/bonafide/log_file_analysis.py**
+- **/home/avranga1008/pxr-challenge/Bonafide/atom-bond-featurizer/src/bonafide/_feature_info.json**
+- **/home/avranga1008/pxr-challenge/Bonafide/atom-bond-featurizer/src/bonafide/utils/input_validation.py**
+- **/home/avranga1008/pxr-challenge/Bonafide/atom-bond-featurizer/src/bonafide/utils/dependencies.py**
+- **/home/avranga1008/pxr-challenge/Bonafide/atom-bond-featurizer/src/bonafide/utils/cdft_redox_mixin.py**
+- **/home/avranga1008/pxr-challenge/Bonafide/atom-bond-featurizer/src/bonafide/utils/helper_functions_chemistry.py**
+- **/home/avranga1008/pxr-challenge/Bonafide/atom-bond-featurizer/src/bonafide/utils/sp_xtb.py**
+- **/home/avranga1008/pxr-challenge/Bonafide/atom-bond-featurizer/src/bonafide/utils/driver.py**
+- **/home/avranga1008/pxr-challenge/Bonafide/atom-bond-featurizer/src/bonafide/utils/constants.py**
+- **/home/avranga1008/pxr-challenge/Bonafide/atom-bond-featurizer/src/bonafide/utils/string_formatting.py**
+- **/home/avranga1008/pxr-challenge/Bonafide/atom-bond-featurizer/src/bonafide/utils/typing_protocols.py**
+- **/home/avranga1008/pxr-challenge/Bonafide/atom-bond-featurizer/src/bonafide/utils/molecule_vault.py**
+- **/home/avranga1008/pxr-challenge/Bonafide/atom-bond-featurizer/src/bonafide/utils/__init__.py**
+- **/home/avranga1008/pxr-challenge/Bonafide/atom-bond-featurizer/src/bonafide/utils/logging_format.py**
+- **/home/avranga1008/pxr-challenge/Bonafide/atom-bond-featurizer/src/bonafide/utils/base_featurizer.py**
+- **/home/avranga1008/pxr-challenge/Bonafide/atom-bond-featurizer/src/bonafide/utils/io_.py**
+- **/home/avranga1008/pxr-challenge/Bonafide/atom-bond-featurizer/src/bonafide/utils/environment.py**
+- **/home/avranga1008/pxr-challenge/Bonafide/atom-bond-featurizer/src/bonafide/utils/sp_psi4.py**
+- **/home/avranga1008/pxr-challenge/Bonafide/atom-bond-featurizer/src/bonafide/utils/global_properties.py**
+- **/home/avranga1008/pxr-challenge/Bonafide/atom-bond-featurizer/src/bonafide/utils/multiwfn_properties.py**
+- **/home/avranga1008/pxr-challenge/Bonafide/atom-bond-featurizer/src/bonafide/utils/feature_output.py**
+- **/home/avranga1008/pxr-challenge/Bonafide/atom-bond-featurizer/src/bonafide/utils/base_single_point.py**
+- **/home/avranga1008/pxr-challenge/Bonafide/atom-bond-featurizer/src/bonafide/utils/feature_factories.py**
+- **/home/avranga1008/pxr-challenge/Bonafide/atom-bond-featurizer/src/bonafide/utils/helper_functions_output.py**
+- **/home/avranga1008/pxr-challenge/Bonafide/atom-bond-featurizer/src/bonafide/utils/helper_functions.py**
+- **/home/avranga1008/pxr-challenge/Bonafide/atom-bond-featurizer/src/bonafide/utils/base_mixin.py**
+- **/home/avranga1008/pxr-challenge/Bonafide/atom-bond-featurizer/src/bonafide/utils/custom_featurizer_input_validation.py**
+- **/home/avranga1008/pxr-challenge/Bonafide/atom-bond-featurizer/check_bonafide_installation.py**
+- **/home/avranga1008/pxr-challenge/Bonafide/atom-bond-featurizer/smoketest_bonafide.py**
+- **/home/avranga1008/pxr-challenge/Bonafide/atom-bond-featurizer/post_install_setup.py**
+- **/home/avranga1008/pxr-challenge/submissions/submission_08_contrastive_pretraining/README.md**
+- **/home/avranga1008/pxr-challenge/submissions/submission_05_supervised_vgae_pretrain/README.md**
+- **/home/avranga1008/pxr-challenge/submissions/submission_10_graphmae/README.md**
+- **/home/avranga1008/pxr-challenge/submissions/submission_07_xgboost_lf_embeddings/README.md**
+- **/home/avranga1008/pxr-challenge/submissions/submission_06_set_transformer_readout/README.md**
+- **/home/avranga1008/pxr-challenge/submissions/submission_09_ensemble_sub7_sub8/README.md**
+- **/home/avranga1008/pxr-challenge/submissions/submission_12_3way_ensemble_sub7_sub8_sub11/README.md**
+- **/home/avranga1008/pxr-challenge/pxr_gnn/README.md**
+- **/home/avranga1008/pxr-challenge/pxr_gnn/scripts/README.md**
+- **/home/avranga1008/pxr-challenge/pxr_gnn/scripts/gpu_smoketest.py**
+- **/home/avranga1008/pxr-challenge/pxr_gnn/configs/submission_06/vgae_lf_8uM_set_transformer.yaml**
+- **/home/avranga1008/pxr-challenge/pxr_gnn/configs/submission_06/vgae_hf_pEC50_set_transformer.yaml**
+- **/home/avranga1008/pxr-challenge/pxr_gnn/configs/submission_04/vgae_pretrain.yaml**
+- **/home/avranga1008/pxr-challenge/pxr_gnn/configs/submission_11/vgae_lf_8uM_set_transformer_rwpe.yaml**
+- **/home/avranga1008/pxr-challenge/pxr_gnn/configs/submission_11/vgae_hf_pEC50_set_transformer_rwpe.yaml**
+- **/home/avranga1008/pxr-challenge/pxr_gnn/configs/vgae_low_fidelity_8uM.yaml**
+- **/home/avranga1008/pxr-challenge/pxr_gnn/configs/low_fidelity_8uM.yaml**
+- **/home/avranga1008/pxr-challenge/pxr_gnn/configs/high_fidelity_aux.yaml**
+- **/home/avranga1008/pxr-challenge/pxr_gnn/configs/submission_08/contrastive_lf_8uM.yaml**
+- **/home/avranga1008/pxr-challenge/pxr_gnn/configs/submission_10/graphmae_lf_8uM.yaml**
+- **/home/avranga1008/pxr-challenge/pxr_gnn/configs/low_fidelity_33uM.yaml**
+- **/home/avranga1008/pxr-challenge/pxr_gnn/configs/submission_05/vgae_low_fidelity_8uM_supervised_pretrain.yaml**
+- **/home/avranga1008/pxr-challenge/pxr_gnn/configs/submission_05/vgae_hf_pEC50_finetune_from_lf_pretrain.yaml**
+- **/home/avranga1008/pxr-challenge/pxr_gnn/tests/test_manifest.py**
+- **/home/avranga1008/pxr-challenge/pxr_gnn/tests/test_featurization.py**
+- **/home/avranga1008/pxr-challenge/pxr_gnn/tests/test_vgae.py**
+- **/home/avranga1008/pxr-challenge/pxr_gnn/tests/__init__.py**
+- **/home/avranga1008/pxr-challenge/pxr_gnn/tests/test_dataset.py**
+- **/home/avranga1008/pxr-challenge/pxr_gnn/tests/test_export.py**
+- **/home/avranga1008/pxr-challenge/pxr_gnn/tests/test_run_logging.py**
+- **/home/avranga1008/pxr-challenge/pxr_gnn/tests/test_schema.py**
+- **/home/avranga1008/pxr-challenge/pxr_gnn/tests/test_training.py**
+- **/home/avranga1008/pxr-challenge/pxr_gnn/tests/test_splitting.py**
+- **/home/avranga1008/pxr-challenge/pxr_gnn/.pytest_cache/README.md**
+- **/home/avranga1008/pxr-challenge/pxr_gnn/src/pxr_gnn/models/__init__.py**
+- **/home/avranga1008/pxr-challenge/pxr_gnn/src/pxr_gnn/models/readouts.py**
+- **/home/avranga1008/pxr-challenge/pxr_gnn/src/pxr_gnn/models/vgae.py**
+- **/home/avranga1008/pxr-challenge/pxr_gnn/src/pxr_gnn/models/gnn.py**
+- **/home/avranga1008/pxr-challenge/pxr_gnn/src/pxr_gnn/data/__init__.py**
+- **/home/avranga1008/pxr-challenge/pxr_gnn/src/pxr_gnn/data/featurization.py**
+- **/home/avranga1008/pxr-challenge/pxr_gnn/src/pxr_gnn/data/schema.py**
+- **/home/avranga1008/pxr-challenge/pxr_gnn/src/pxr_gnn/data/augment.py**
+- **/home/avranga1008/pxr-challenge/pxr_gnn/src/pxr_gnn/data/splitting.py**
+- **/home/avranga1008/pxr-challenge/pxr_gnn/src/pxr_gnn/data/dataset.py**
+- **/home/avranga1008/pxr-challenge/pxr_gnn/src/pxr_gnn/__init__.py**
+- **/home/avranga1008/pxr-challenge/pxr_gnn/src/pxr_gnn/utils/run_logging.py**
+- **/home/avranga1008/pxr-challenge/pxr_gnn/src/pxr_gnn/utils/__init__.py**
+- **/home/avranga1008/pxr-challenge/pxr_gnn/src/pxr_gnn/utils/manifest.py**
+- **/home/avranga1008/pxr-challenge/pxr_gnn/src/pxr_gnn/utils/config.py**
+- **/home/avranga1008/pxr-challenge/pxr_gnn/src/pxr_gnn/pipelines/generate_butina_split.py**
+- **/home/avranga1008/pxr-challenge/pxr_gnn/src/pxr_gnn/pipelines/pretrain_contrastive.py**
+- **/home/avranga1008/pxr-challenge/pxr_gnn/src/pxr_gnn/pipelines/pretrain_graphmae.py**
+- **/home/avranga1008/pxr-challenge/pxr_gnn/src/pxr_gnn/pipelines/featurize_data.py**
+- **/home/avranga1008/pxr-challenge/pxr_gnn/src/pxr_gnn/pipelines/pretrain_vgae.py**
+- **/home/avranga1008/pxr-challenge/pxr_gnn/src/pxr_gnn/pipelines/__init__.py**
+- **/home/avranga1008/pxr-challenge/pxr_gnn/src/pxr_gnn/pipelines/train_low_fidelity.py**
+- **/home/avranga1008/pxr-challenge/pxr_gnn/src/pxr_gnn/pipelines/inspect_data.py**
+- **/home/avranga1008/pxr-challenge/pxr_gnn/src/pxr_gnn/pipelines/build_dataset.py**
+- **/home/avranga1008/pxr-challenge/pxr_gnn/src/pxr_gnn/pipelines/finetune_vgae.py**
+- **/home/avranga1008/pxr-challenge/pxr_gnn/src/pxr_gnn/pipelines/export_outputs.py**
+- **/home/avranga1008/pxr-challenge/pxr_gnn/src/pxr_gnn/training/regression.py**
+- **/home/avranga1008/pxr-challenge/pxr_gnn/src/pxr_gnn/training/__init__.py**
+- **/home/avranga1008/pxr-challenge/pxr_gnn/src/pxr_gnn/training/graphmae.py**
+- **/home/avranga1008/pxr-challenge/pxr_gnn/src/pxr_gnn/training/loss.py**
+- **/home/avranga1008/pxr-challenge/pxr_gnn/src/pxr_gnn/training/export.py**
+- **/home/avranga1008/pxr-challenge/pxr_gnn/src/pxr_gnn/training/contrastive.py**
+- **/home/avranga1008/pxr-challenge/pxr_gnn/src/pxr_gnn/training/pretrain.py**
+- **/home/avranga1008/pxr-challenge/pxr_gnn/src/pxr_gnn/training/finetune.py**
+- **/home/avranga1008/pxr-challenge/pxr_gnn/environment.yml**
+- **/home/avranga1008/pxr-challenge/external/ligand_prep/README.md**
+- **/home/avranga1008/pxr-challenge/external/ligand_prep/ligand_prep.py**
+- **/home/avranga1008/pxr-challenge/.claude/settings.local.json**
+- **/home/avranga1008/pxr-challenge/mlruns/1/98e26156f40a417fa2d0ac7df72a1173/artifacts/run_config.json**
+- **/home/avranga1008/pxr-challenge/mlruns/1/models/m-81d88fefc9114d52be4bd10999df3a6b/artifacts/python_env.yaml**
+- **/home/avranga1008/pxr-challenge/mlruns/1/models/m-81d88fefc9114d52be4bd10999df3a6b/artifacts/conda.yaml**
+- **/home/avranga1008/pxr-challenge/mlruns/1/models/m-2e2c34e5cae3463fa3ea6164cc1a349b/artifacts/python_env.yaml**
+- **/home/avranga1008/pxr-challenge/mlruns/1/models/m-2e2c34e5cae3463fa3ea6164cc1a349b/artifacts/conda.yaml**
+- **/home/avranga1008/pxr-challenge/mlruns/1/models/m-ced51bf1d14b4a53b9836e0530e50df2/artifacts/python_env.yaml**
+- **/home/avranga1008/pxr-challenge/mlruns/1/models/m-ced51bf1d14b4a53b9836e0530e50df2/artifacts/conda.yaml**
+- **/home/avranga1008/pxr-challenge/mlruns/1/models/m-4466b07e321e4be29cb4731e6ae84b58/artifacts/python_env.yaml**
+- **/home/avranga1008/pxr-challenge/mlruns/1/models/m-4466b07e321e4be29cb4731e6ae84b58/artifacts/conda.yaml**
+- **/home/avranga1008/pxr-challenge/mlruns/1/models/m-ec0539b14c3f41299855bcaa984f869a/artifacts/python_env.yaml**
+- **/home/avranga1008/pxr-challenge/mlruns/1/models/m-ec0539b14c3f41299855bcaa984f869a/artifacts/conda.yaml**
+- **/home/avranga1008/pxr-challenge/mlruns/1/models/m-442e3d85f7d949f7bbab9c6db670fb3f/artifacts/python_env.yaml**
+- **/home/avranga1008/pxr-challenge/mlruns/1/models/m-442e3d85f7d949f7bbab9c6db670fb3f/artifacts/conda.yaml**
+- **/home/avranga1008/pxr-challenge/mlruns/1/models/m-dc2f74a2f8624cd6b1eace5eaa8e8338/artifacts/python_env.yaml**
+- **/home/avranga1008/pxr-challenge/mlruns/1/models/m-dc2f74a2f8624cd6b1eace5eaa8e8338/artifacts/conda.yaml**
+- **/home/avranga1008/pxr-challenge/mlruns/1/models/m-4cd906b1601c44bba4f1ed0951dfe991/artifacts/python_env.yaml**
+- **/home/avranga1008/pxr-challenge/mlruns/1/models/m-4cd906b1601c44bba4f1ed0951dfe991/artifacts/conda.yaml**
+- **/home/avranga1008/pxr-challenge/mlruns/1/models/m-bb2078b2c3c3492abfb939f622a0eef0/artifacts/python_env.yaml**
+- **/home/avranga1008/pxr-challenge/mlruns/1/models/m-bb2078b2c3c3492abfb939f622a0eef0/artifacts/conda.yaml**
+- **/home/avranga1008/pxr-challenge/mlruns/1/models/m-f258d20c8a19404a8dcee7f66017bee4/artifacts/python_env.yaml**
+- **/home/avranga1008/pxr-challenge/mlruns/1/models/m-f258d20c8a19404a8dcee7f66017bee4/artifacts/conda.yaml**
+- **/home/avranga1008/pxr-challenge/mlruns/1/models/m-7f390da4342949f29db2431ac8c0b015/artifacts/python_env.yaml**
+- **/home/avranga1008/pxr-challenge/mlruns/1/models/m-7f390da4342949f29db2431ac8c0b015/artifacts/conda.yaml**
+- **/home/avranga1008/pxr-challenge/mlruns/1/models/m-9d2544041c8d439e88d796b7dfcfafaf/artifacts/python_env.yaml**
+- **/home/avranga1008/pxr-challenge/mlruns/1/models/m-9d2544041c8d439e88d796b7dfcfafaf/artifacts/conda.yaml**
+- **/home/avranga1008/pxr-challenge/mlruns/1/models/m-b2d79b7ceac8434cacdca214a9451429/artifacts/python_env.yaml**
+- **/home/avranga1008/pxr-challenge/mlruns/1/models/m-b2d79b7ceac8434cacdca214a9451429/artifacts/conda.yaml**
+- **/home/avranga1008/pxr-challenge/mlruns/1/models/m-d1c9e621b6e5498092cfc67cf9b1ab05/artifacts/python_env.yaml**
+- **/home/avranga1008/pxr-challenge/mlruns/1/models/m-d1c9e621b6e5498092cfc67cf9b1ab05/artifacts/conda.yaml**
+- **/home/avranga1008/pxr-challenge/mlruns/1/models/m-a04861795150444ba5d24f4250f489a6/artifacts/python_env.yaml**
+- **/home/avranga1008/pxr-challenge/mlruns/1/models/m-a04861795150444ba5d24f4250f489a6/artifacts/conda.yaml**
+- **/home/avranga1008/pxr-challenge/mlruns/1/models/m-77da2b2ccc7b4f78ac8931dd17d44eb7/artifacts/python_env.yaml**
+- **/home/avranga1008/pxr-challenge/mlruns/1/models/m-77da2b2ccc7b4f78ac8931dd17d44eb7/artifacts/conda.yaml**
+- **/home/avranga1008/pxr-challenge/mlruns/1/models/m-8dcca35b16fd49c9a0e816c829f145dc/artifacts/python_env.yaml**
+- **/home/avranga1008/pxr-challenge/mlruns/1/models/m-8dcca35b16fd49c9a0e816c829f145dc/artifacts/conda.yaml**
+- **/home/avranga1008/pxr-challenge/mlruns/1/models/m-82b357e0691844edbd54b2379202439e/artifacts/python_env.yaml**
+- **/home/avranga1008/pxr-challenge/mlruns/1/models/m-82b357e0691844edbd54b2379202439e/artifacts/conda.yaml**
+- **/home/avranga1008/pxr-challenge/mlruns/1/models/m-97f55e6a6043485684308a3c1921d5e1/artifacts/python_env.yaml**
+- **/home/avranga1008/pxr-challenge/mlruns/1/models/m-97f55e6a6043485684308a3c1921d5e1/artifacts/conda.yaml**
+- **/home/avranga1008/pxr-challenge/mlruns/1/models/m-33e1d4c77cc0407789c89cb651ab2424/artifacts/python_env.yaml**
+- **/home/avranga1008/pxr-challenge/mlruns/1/models/m-33e1d4c77cc0407789c89cb651ab2424/artifacts/conda.yaml**
+- **/home/avranga1008/pxr-challenge/mlruns/1/models/m-5f0997c3674940efa078a22ab04623d2/artifacts/python_env.yaml**
+- **/home/avranga1008/pxr-challenge/mlruns/1/models/m-5f0997c3674940efa078a22ab04623d2/artifacts/conda.yaml**
+- **/home/avranga1008/pxr-challenge/mlruns/1/c1a2c776312644249e7051801ac5593a/artifacts/run_config.json**
+- **/home/avranga1008/pxr-challenge/mlruns/1/94255f97b2434568bdf518a5effaedc0/artifacts/run_config.json**
+- **/home/avranga1008/pxr-challenge/mlruns/1/443e1f9d1b2d4999958bd2b08b746a78/artifacts/run_config.json**
+- **/home/avranga1008/pxr-challenge/mlruns/1/b66f03667d0b46f1ae8fab89e7c7a9da/artifacts/run_config.json**
+- **/home/avranga1008/pxr-challenge/mlruns/1/915c43684b8c45eb8d374c8f5cb22972/artifacts/run_config.json**
+- **/home/avranga1008/pxr-challenge/mlruns/1/5489549e15514bed86dbd24bcf7b4130/artifacts/run_config.json**
+- **/home/avranga1008/pxr-challenge/mlruns/1/6247a846ed0f4efc8c4425d8a14eb1f5/artifacts/run_config.json**
+- **/home/avranga1008/pxr-challenge/mlruns/1/fd8e8cabe48f4608b1a34fc77c4e165b/artifacts/run_config.json**
+- **/home/avranga1008/pxr-challenge/mlruns/1/05e715cbc1e14f60bed26cc39eae7912/artifacts/run_config.json**
+- **/home/avranga1008/pxr-challenge/mlruns/1/68c9f4fc602644c19c80473f8a33d072/artifacts/run_config.json**
+- **/home/avranga1008/pxr-challenge/mlruns/1/e006da5ac6114d7289354e0e970ce477/artifacts/run_config.json**
+- **/home/avranga1008/pxr-challenge/mlruns/1/700a704ce1ef473d8bc229426ca897e7/artifacts/run_config.json**
+- **/home/avranga1008/pxr-challenge/mlruns/1/cc2975e2f49044bfaeb96180efd1949d/artifacts/run_config.json**
+- **/home/avranga1008/pxr-challenge/mlruns/1/88b55c8578e54362bd80e642b35d6f38/artifacts/run_config.json**
+- **/home/avranga1008/pxr-challenge/mlruns/1/ed8127d4ece24863ba86b2b80c8d896b/artifacts/run_config.json**
+- **/home/avranga1008/pxr-challenge/mlruns/1/f4be05675089433591f4aec92448dfb2/artifacts/run_config.json**
+- **/home/avranga1008/pxr-challenge/mlruns/1/9d3e0f6412754a94932f125d71dc7667/artifacts/run_config.json**
+- **/home/avranga1008/pxr-challenge/mlruns/1/b63286d0f6754bb0a9ebefec7e947855/artifacts/run_config.json**
+- **/home/avranga1008/pxr-challenge/mlruns/1/f5c07690be6f48b897172ef1aa1dbfc7/artifacts/run_config.json**
+- **/home/avranga1008/pxr-challenge/mlruns/1/e6ff0d13df434caabac2d8ee49dad593/artifacts/run_config.json**
+- **/home/avranga1008/pxr-challenge/mlruns/2/models/m-96d7fcd327cd403d819203a0f57205fa/artifacts/python_env.yaml**
+- **/home/avranga1008/pxr-challenge/mlruns/2/models/m-96d7fcd327cd403d819203a0f57205fa/artifacts/conda.yaml**
+- **/home/avranga1008/pxr-challenge/mlruns/2/models/m-6dbdcf78c7844d389f35b55267dd279f/artifacts/python_env.yaml**
+- **/home/avranga1008/pxr-challenge/mlruns/2/models/m-6dbdcf78c7844d389f35b55267dd279f/artifacts/conda.yaml**
+- **/home/avranga1008/pxr-challenge/mlruns/2/models/m-cbbb979378854d118bbaacfb2a09dd37/artifacts/python_env.yaml**
+- **/home/avranga1008/pxr-challenge/mlruns/2/models/m-cbbb979378854d118bbaacfb2a09dd37/artifacts/conda.yaml**
+- **/home/avranga1008/pxr-challenge/mlruns/2/models/m-f025c7eb217544dc8d9fb9409aff9c70/artifacts/python_env.yaml**
+- **/home/avranga1008/pxr-challenge/mlruns/2/models/m-f025c7eb217544dc8d9fb9409aff9c70/artifacts/conda.yaml**
+- **/home/avranga1008/pxr-challenge/mlruns/2/8ce774723ecb495c957c392ecce7781b/artifacts/run_metadata.json**
+- **/home/avranga1008/pxr-challenge/mlruns/2/2a64ea6bfca545a79d577b4430cf27fa/artifacts/run_metadata.json**
+
+
+
+
+**Files Read:**
+
+**\\WSL$\Ubuntu\home\avranga1008\pxr-challenge\README.md**
+```
+# OpenADMET PXR Challenge Workspace
+
+This repository is a working folder for participating in the OpenADMET blind challenge on human PXR induction.
+
+Current source material in this folder:
+
+- `competition-overview.md`
+- `discord-PXR-challenge-general-summary.md`
+- `pxr-master-page.md`
+
+## Immediate Goal
+
+Build a clean, reproducible workflow for the OpenADMET PXR challenge, with the initial focus on the activity prediction track.
+
+## Challenge Summary
+
+The challenge has two tracks:
+
+1. Activity prediction
+2. Structure prediction
+
+The activity track is the practical place to start. The main task is to predict `pEC50` values for a blinded set of compounds and submit predictions keyed by OpenADMET ID in CSV or Parquet format.
+
+Important details captured from the background notes:
+
+- The public training package is expected to include main-assay activity, counter-assay data, and single-concentration data.
+- The test set is analog-heavy and does not follow a simple temporal split.
+- Counter-assay data is a strict subset of the main assay data.
+- Low-end `pEC50` values may be noisy, and `Emax` becomes unreliable for weak compounds.
+- Some files may contain inconsistent SMILES or stereochemistry annotations for the same IDs, so data validation will matter.
+
+## Working Plan
+
+Phase 1:
+
+- organize the repository structure
+- load and audit the released challenge files
+- validate IDs, SMILES, stereochemistry, duplicates, and assay joins
+- build a baseline model for the activity track
+- generate reproducible submission files
+
+Phase 2:
+
+- improve validation strategy for analog-rich test compounds
+- compare descriptor and graph-based models
+- add uncertainty estimates and error analysis
+
+Optional later work:
+
+- structure track experiments
+- literature-guided PXR feature engineering
+- external data augmentation such as curated ChEMBL PXR activity
+
+## Proposed Repository Layout
+
+```text
+.
+├── data/
+│   ├── raw/
+│   ├── interim/
+│   └── processed/
+├── docs/
+├── notebooks/
+├── outputs/
+│   ├── models/
+│   ├── submissions/
+│   └── reports/
+└── src/
+    └── pxr_challenge/
+```
+
+## Modeling Priorities
+
+Start with strong tabular cheminformatics baselines before adding complexity:
+
+- RDKit descriptors
+- ECFP4 fingerprints
+- tree-based regressors
+- simple ensembles
+
+Validation should include more than one split strategy:
+
+- random split
+- analog or cluster-aware split
+- scaffold split for stress testing
+
+## Notes on Scope
+
+The PXR receptor is highly promiscuous and structurally flexible, but the first bottleneck here is not receptor biology. It is data quality, split design, and establishing a reliable baseline on the released assay package.
+
+## Current Progress & SOTA
+
+We have iterated through 12 formal submissions on the activity prediction track, progressing from classical machine learning baselines to sophisticated multi-fidelity GNN approaches:
+
+1. **Submissions 1 & 2 (Baselines):** Established strong tabular baselines using RDKit descriptors, Morgan fingerprints, and XGBoost with heteroscedastic target weighting (`total_error`). Sub 2 achieved a leaderboard MAE of 0.50 and RAE of 0.63.
+2. **Submissions 4-6 (Supervised Multi-Fidelity):** Developed a PyTorch Geometric framework (`pxr_gnn`) to pretrain GIN/GCN graph encoders on 8µM low-fidelity (LF) activity data. We added an adaptive Set Transformer readout which outperformed fixed mean pooling. However, the end-to-end GNN underperformed classical XGBoost on the final high-fidelity task.
+3. **Submissions 7 & 8 (Hybrid Models):** Shifted to a hybrid approach—exporting 128-dimensional graph embeddings from the GNN and concatenating them onto the classical features for XGBoost.
+   - **Sub 7** used supervised LF embeddings.
+   - **Sub 8** used contrastive self-supervised LF embeddings (InfoNCE with graph masking and edge dropping).
+   Both models improved internal holdout metrics.
+4. **Submission 9 (Prediction-Level 2-Way Ensemble):** Blended the predictions of Sub 7 and Sub 8 (weighting 0.645 / 0.355). Achieved a major leaderboard jump (**RAE 0.6063**, MAE 0.4827, R² 0.5522, Spearman 0.7994).
+5. **Submission 10 (GraphMAE):** Explored adding a Masked Node Modeling objective during contrastive pretraining. Underperformed Sub 9 — the embeddings duplicated local information already captured by Morgan fingerprints in the downstream XGBoost step.
+6. **Submission 11 (RWPE GNN):** Augmented node features with Random Walk Positional Encodings (20 dims) before pretraining and finetuning the VGAE/Set Transformer model. Improved end-to-end GNN performance over Submission 6, though still below the hybrid XGBoost track.
+7. **Submission 12 (3-Way Prediction-Level Ensemble — current SOTA):** Blended the predictions of Sub 7, Sub 8, and Sub 11 with holdout-optimized weights **0.55 / 0.28 / 0.17**. Set our **new state-of-the-art** on the leaderboard:
+   - **RAE:** **0.5878** (Primary Metric)
+   - **MAE:** **0.4681**
+   - **R²:** **0.5626**
+   - **Spearman ρ:** **0.8070**
+   - **Kendall’s τ:** **0.6081**
+
+All code, configurations, logs, and artifacts for these pipelines can be found in `activity/outputs/` and `pxr_gnn/`. Detailed tracking of submission performance is maintained in `activity/outputs/finalist_predictions/SUBMISSIONS_LOG.md`. The full method report for the current SOTA submission is at `submissions/submission_12_3way_ensemble_sub7_sub8_sub11/METHOD_REPORT.md`.
+```
+
+**\\WSL$\Ubuntu\home\avranga1008\pxr-challenge\pxr_gnn\README.md**
+```
+# pxr_gnn
+
+Reusable graph neural network and multi-fidelity modeling code for the OpenADMET PXR challenge workflow.
+
+This package is intentionally separate from `activity/`.
+
+- `pxr_gnn/` contains reusable Python package code, tests, and run configs.
+- `activity/` contains project data, generated features, model outputs, reports, and one-off experiment artifacts.
+
+## Initial Scope
+
+The first implementation should stay narrow and robust:
+
+- RDKit SMILES validation and PyTorch Geometric graph construction.
+- Single-target low-fidelity regression for `lf_signal_8uM` and `lf_signal_33uM`.
+- GCN/GIN encoders with global graph pooling.
+- Explicit train/validation/test split handling.
+- Reproducible run metadata in `run_config.json`.
+- Embedding and prediction export under `activity/data/features/`.
+
+Later additions can include VGAE pretraining, PNA, Set Transformer readouts, masked multitask losses, and high-fidelity fine-tuning.
+
+## Layout
+
+```text
+pxr_gnn/
+├── configs/              # Checked-in run configuration templates.
+├── src/pxr_gnn/          # Reusable package code.
+│   ├── data/             # Featurization, datasets, split validation.
+│   ├── models/           # GNN encoders, readouts, losses.
+│   ├── training/         # Lightning modules, datamodules, metrics.
+│   ├── pipelines/        # CLI-style train/export/evaluate entry points.
+│   └── utils/            # Config, IO, environment helpers.
+└── tests/                # Focused tests for data, models, and losses.
+```
+
+## Documentation
+
+Full docs live under `docs/`:
+
+- [`docs/index.md`](docs/index.md) — overview and navigation.
+- [`docs/getting-started.md`](docs/getting-started.md) — install, environment setup, quick start.
+- [`docs/architecture.md`](docs/architecture.md) — design and module map.
+- [`docs/configuration.md`](docs/configuration.md) — YAML config reference.
+- [`docs/data-and-artifacts.md`](docs/data-and-artifacts.md) — CSV schema, checkpoint payloads, output tree.
+- [`docs/troubleshooting.md`](docs/troubleshooting.md) — common failure modes.
+- [`docs/tutorials/`](docs/tutorials) — basic training and VGAE pretraining walkthroughs.
+- [`docs/api/`](docs/api) — per-subpackage API reference.
+
+## Expected Usage
+
+Create the CUDA-enabled conda environment and install the package in editable mode. All commands below are run from this package directory (`pxr_gnn/`):
+
+```bash
+conda env create -f environment.yml
+PYTHONNOUSERSITE=1 MPLCONFIGDIR=/tmp/pxr_gnn_mpl conda run -n pxr_gnn python -m pip install -e .
+```
+
+Use `PYTHONNOUSERSITE=1` when running through `conda run`; this avoids leaking packages from the user site directory into the conda environment.
+
+Generate the shared low-fidelity Butina split first. This is Step 0 and writes
+`activity/data/features/single_dose_chemprop/chemprop_lf_regression_8_33_butina_split.csv`
+plus diagnostics under `activity/outputs/low_fidelity_butina_split/`.
+
+```bash
+PYTHONNOUSERSITE=1 MPLCONFIGDIR=/tmp/pxr_gnn_mpl conda run -n pxr_gnn python -m pxr_gnn.pipelines.generate_butina_split
+```
+
+Current schema inspection command:
+
+```bash
+PYTHONNOUSERSITE=1 MPLCONFIGDIR=/tmp/pxr_gnn_mpl conda run -n pxr_gnn python -m pxr_gnn.pipelines.inspect_data --config configs/low_fidelity_8uM.yaml
+```
+
+Current molecule featurization command:
+
+```bash
+PYTHONNOUSERSITE=1 MPLCONFIGDIR=/tmp/pxr_gnn_mpl conda run -n pxr_gnn python -m pxr_gnn.pipelines.featurize_data --config configs/low_fidelity_8uM.yaml
+```
+
+Current graph dataset command:
+
+```bash
+PYTHONNOUSERSITE=1 MPLCONFIGDIR=/tmp/pxr_gnn_mpl conda run -n pxr_gnn python -m pxr_gnn.pipelines.build_dataset --config configs/low_fidelity_8uM.yaml
+```
+
+Current low-fidelity training command:
+
+```bash
+PYTHONNOUSERSITE=1 MPLCONFIGDIR=/tmp/pxr_gnn_mpl conda run -n pxr_gnn python -m pxr_gnn.pipelines.train_low_fidelity --config configs/low_fidelity_8uM.yaml
+```
+
+Current export/report command:
+
+```bash
+PYTHONNOUSERSITE=1 MPLCONFIGDIR=/tmp/pxr_gnn_mpl conda run -n pxr_gnn python -m pxr_gnn.pipelines.export_outputs --config configs/low_fidelity_8uM.yaml
+```
+
+Training writes `training_manifest.json`; export writes `export_manifest.json`.
+These manifests include `run_mode`, command, config snapshot, input SHA256,
+split counts, training limits, checkpoint path, artifact paths, package
+versions, torch/CUDA status, and git metadata when available. Smoke runs are
+marked with an explicit warning so their checkpoints, predictions, and
+embeddings are not mistaken for production outputs.
+
+## Run Logging
+
+Every training or export pipeline should log the same five high-level steps:
+
+0. Generate shared Butina cluster split labels.
+1. Inspect data schema.
+2. Featurize molecules.
+3. Build graph dataset.
+4. Train and validate model.
+5. Export outputs and report.
+
+The package provides `pxr_gnn.utils.StepLogger` for this. Pipeline scripts should
+wrap each stage with `step_logger.step(...)` and log row counts, column names,
+missing-target counts, split sizes, graph tensor shapes, model settings, metric
+values, and output paths as structured events.
+
+Example:
+
+```python
+from pxr_gnn.utils import LoggingConfig, StepLogger, configure_logging
+
+logger = configure_logging(LoggingConfig(level="INFO", log_file="activity/outputs/run.log"))
+step_logger = StepLogger(logger)
+
+step_logger.run_start("low_fidelity_8uM_gnn", config_path="configs/low_fidelity_8uM.yaml")
+with step_logger.step(1, "chemprop_lf_regression_8_33.csv"):
+    step_logger.event("Loaded CSV", rows=12500, columns=18)
+step_logger.run_end()
+```
+```
+
+
+
+I found the key project context: your training package already expects main-assay activity plus a counterscreen subset, and the repo history emphasizes noisy low-end pEC50 and heteroscedastic weighting. I’m using that to filter the literature toward methods that improve potency prediction without leaking assay artifacts.
+
+
+**Grep Results:**
+
+
+
+MarkAsCompleted: 2 items
+Main takeaway: the literature supports using counterscreen data, but usually **not** by naïvely appending raw counterscreen values to the main pEC50 table.
+
+The strongest patterns are:
+
+1. **Use counterscreens to identify artifact / nuisance compounds**
+2. **Use counterscreens as a separate auxiliary task or predicted feature**
+3. **Model selectivity directly when the counterscreen is biologically meaningful**
+4. **Treat primary single-dose screen data and counterscreen data as different signal types**
+
+## What the papers support
+
+### 1) Counterscreen as an artifact/noise detector
+This is the clearest and most consistent use.
+
+- **Sheridan et al., 2015, JCIM, “eCounterscreening”**  
+  They use QSAR models for counterscreens to prioritize which off-target assays to run and frame it as a risk/benefit problem.  
+  Relevance: counterscreen predictions can be turned into a **risk score**, not just a binary filter.
+
+- **David et al., 2019, ChemMedChem, DOI: 10.1002/cmdc.201900395**  
+  Important because it explicitly uses **historical counterscreen assays** to model assay-technology interference (AlphaScreen, FRET, TR-FRET).  
+  Relevance: counterscreen data can systematically identify compounds likely to be **false positives / assay interferers**.
+
+- **Borrel et al., 2020, Scientific Reports, “High-Throughput Screening to Predict Chemical-Assay Interference”**  
+  Interference assays themselves can be modeled with ~80% accuracy.  
+  Relevance: nuisance readouts can be predicted from structure and used for triage.
+
+- **Alves et al., 2023, J Med Chem, “Liability Predictor”**  
+  Curated interference datasets outperform simple PAINS-style rules.  
+  Relevance: if your counterscreen is measuring reporter interference / cytotoxicity / technology artifact, it should be treated as a **liability model**, not as potency.
+
+**Implication for your PXR pEC50 task:**  
+If the counterscreen is mostly telling you “this compound is noisy / non-specific / interferes with the assay”, the best use is:
+- hard filter as an ablation,
+- or better, **soft downweighting / risk features** in the main pEC50 model.
+
+Hard filtering can help, but soft weighting is usually safer.
+
+---
+
+### 2) Assay-panel / multi-assay modeling improves potency prediction
+This is the most relevant family of papers if you want to improve pEC50 prediction directly.
+
+- **Martin et al., 2011, JCIM, “Profile-QSAR”**
+- **Martin et al., 2017, JCIM, “Profile-QSAR 2.0”**
+- **Martin et al., 2019, JCIM, “All-Assay-Max2 pQSAR”**
+
+These papers show that **predicted activities from other assays** can be used as descriptors for the assay of interest, improving affinity, selectivity, and even cellular activity prediction.
+
+**Best transferable idea for your project:**  
+Build a **two-stage stacked model**:
+
+1. Train a model for the counterscreen on the paired subset.
+2. Generate **out-of-fold predicted counterscreen values/risk scores** for training compounds.
+3. Use those predictions as extra features in the main pEC50 model.
+
+That is much cleaner than using observed counterscreen values directly, because:
+- the blind/test compounds likely won’t have real counterscreen measurements,
+- and direct use of observed counterscreen values would create deployment leakage.
+
+This is probably the strongest research-backed option for your dataset.
+
+---
+
+### 3) Direct selectivity modeling often beats subtracting two separate models
+- **Burggraaf et al., 2020, J Cheminformatics, DOI: 10.1186/s13321-020-00438-3**  
+  They show that modeling **affinity difference directly** (“selectivity window”) performs better than predicting each target separately and subtracting afterward.
+
+**Implication:**  
+If your counterscreen is a meaningful biological off-target or anti-target assay, then define:
+
+`selectivity = pEC50_main - pEC50_counter`
+
+and train a direct model on that paired subset.
+
+This is useful for ranking compounds that are both:
+- potent in the main assay,
+- clean in the counterscreen.
+
+For your challenge, I would treat this as an **auxiliary model**, not the only model, because the leaderboard target is main-assay pEC50, not selectivity.
+
+---
+
+### 4) Primary screen data is multifidelity signal, counterscreen data is orthogonal signal
+- **Buterez et al., 2023, JCIM, MF-PCBA**  
+  Strong evidence that integrating **primary low-fidelity** and **confirmatory high-fidelity** screening improves prediction.
+- **Boldini et al., 2024, ACS Central Science**  
+  Shows you can learn to prioritize true hits and de-emphasize false positives directly from noisy HTS data.
+- **Jain et al., 2021, ACS Pharmacol Transl Sci**  
+  Practical example: compounds active in the primary assay and inactive in counterscreen were treated as true actives.
+
+**Important distinction:**
+- **single-dose primary screen** = multifidelity potency signal
+- **counterscreen** = liability/selectivity/noise signal
+
+They should usually **not** be merged the same way.
+
+For PXR:
+- use single-dose screen as low-fidelity potency input,
+- use counterscreen as auxiliary clean-hit/selectivity input.
+
+---
+
+### 5) Assay heterogeneity matters
+- **Yan et al., 2023/2024, MBP**
+- **Chan et al., 2023, assay heterogeneity**
+- **matched-pair / ranking work in 2024–2025**
+
+These papers all point in the same direction: assay data from different protocols are noisy and not always directly comparable. Within-assay rankings and task-specific modeling are often more robust than blindly pooling everything.
+
+**Implication for your task:**
+Do **not** collapse main assay and counterscreen into one regression target.
+Use:
+- separate heads,
+- masked multitask loss,
+- or pairwise/selectivity ranking on the overlap subset.
+
+---
+
+## What I would recommend for your PXR setup
+
+### Best first approach
+**Stacked model with predicted counterscreen features**
+
+Train:
+- `Model_counter`: predict counterscreen activity / liability on paired subset
+- `Model_main`: predict main-assay pEC50 using:
+  - descriptors + fingerprints
+  - optional single-dose screen features
+  - **OOF-predicted counterscreen score**
+  - maybe predicted counterscreen uncertainty / binary clean-risk flag
+
+Why this is the best first step:
+- matches pQSAR-style literature,
+- avoids leakage,
+- works even if counterscreen is only a subset,
+- fits your current baseline-friendly workflow.
+
+---
+
+### Second approach
+**Direct selectivity model on paired compounds**
+
+Train:
+- `y_selectivity = pEC50_main - pEC50_counter`
+
+Use it to:
+- rerank high-pEC50 predictions,
+- or ensemble with the main model.
+
+Good if the counterscreen is biologically meaningful. Less good if it is mostly a technology artifact assay.
+
+---
+
+### Third approach
+**Masked multitask model**
+Shared trunk, separate heads:
+- head 1: main pEC50
+- head 2: counterscreen activity / pEC50 / binary liability
+
+This is better if overlap is decent and you want one model.  
+If overlap is small, the stacked approach is usually simpler and safer.
+
+---
+
+## What I would avoid
+- Using observed counterscreen values as input unless you also have them at inference time
+- Training only on the paired subset without checking whether that subset is biased
+- Hard filtering all counterscreen-positive compounds before you compare against soft-weighting baselines
+
+---
+
+## Minimal experiment set to compare
+1. Main-assay baseline only  
+2. Baseline + hard counterscreen filter  
+3. Baseline + predicted counterscreen feature(s)  
+4. Multitask main/counter model  
+5. Direct selectivity model + ensemble/rerank
+
+Evaluate on cluster/scaffold splits, and report:
+- MAE
+- R²
+- Spearman/Kendall
+- top-ranked hit cleanliness if possible
+
+---
+
+## Most relevant references
+- Sheridan et al., 2015, **eCounterscreening**, JCIM, DOI: 10.1021/ci500666m
+- Martin et al., 2011, **Profile-QSAR**, DOI: 10.1021/ci1005004
+- Martin et al., 2017, **Profile-QSAR 2.0**, DOI: 10.1021/acs.jcim.7b00166
+- Martin et al., 2019, **All-Assay-Max2 pQSAR**, DOI: 10.1021/acs.jcim.9b00375
+- David et al., 2019, **counter-screen assays for assay-technology interference**, DOI: 10.1002/cmdc.201900395
+- Burggraaf et al., 2020, **direct selectivity-window modeling**, DOI: 10.1186/s13321-020-00438-3
+- Buterez et al., 2023, **MF-PCBA**, DOI: 10.1021/acs.jcim.2c01569
+- Boldini et al., 2024, **HTS hit prioritization / false-positive separation**, DOI: 10.1021/acscentsci.3c01517
+
+If you want, I can turn this into a concrete experiment plan for your repo, or implement the **stacked counterscreen-feature model** first.
