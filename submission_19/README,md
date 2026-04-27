@@ -1,0 +1,39 @@
+# METHOD REPORT: Submission #19 (Ablation - 3-Way Tier 1 Ensemble)
+
+## 1. Context and Problem Statement
+Our modeling trajectory hit a critical inflection point after implementing the LLM Council Chairman's synthesis. The progression was as follows:
+- **Submission 12 (SOTA):** A 3-way prediction-level ensemble of classical features, self-supervised VGAE graph embeddings, and RWPE graph priors. It established our leaderboard high-water mark with **RAE 0.5878**.
+- **Tier 1 (Sub 15):** We introduced Counter-Assay Out-of-Fold (OOF) predictions as features and applied clipped `total_error` heteroscedastic sample weighting to the XGBoost baseline.
+- **Tier 2 (Sub 16):** We introduced a PyTorch Multi-Task Learning (MTL) Neural Network explicitly modeling Gaussian NLL aleatoric uncertainty alongside a counter-assay MSE objective.
+- **Tier 3 (Sub 17 & 18):** We ensembled Sub15, Sub16, and our previous graph models. On the internal Butina holdout split, performance shattered records (RAE plummeted to **0.5774**). However, on the blinded public leaderboard, performance **degraded severely to RAE ~0.61**.
+
+Ablation Sub18 proved that the Isotonic Calibration step was *not* the sole cause of the degradation. Therefore, the failure to generalize lies fundamentally within the new base learners introduced in Tiers 1 and 2. 
+
+## 2. Hypothesis and Intervention
+Because the uncalibrated 4-way super-ensemble (Sub18) performed worse than the SOTA Sub12, we must isolate whether the degradation stems from:
+1. **The Tier 1 Counter-Assay features (Sub15)** over-fitting to the restricted domain of the counter-assay data.
+2. **The Tier 2 PyTorch Neural Network (Sub16)** extrapolating wildly out-of-distribution (OOD), a known failure mode for MLPs encountering novel analog scaffolds compared to the flattening behavior of tree models.
+
+**This submission (#19) perfectly mirrors the SOTA architecture of Submission 12 to isolate the variable.** 
+Submission 12 was a 3-way ensemble of `Sub7 + Sub8 + Sub11`.
+Submission 19 drops the PyTorch NN entirely, and swaps out the old `Sub7` baseline for the new Tier 1 `Sub15` baseline:
+
+**Ensemble Architecture:**
+- **w15 = 0.485:** Tier 1 XGBoost hybrid (Classical + Supervised LF Embeddings + Counter OOF + `total_error` weights)
+- **w8 = 0.315:** Contrastive LF topology XGBoost
+- **w11 = 0.200:** RWPE End-to-end graph bias
+
+No isotonic calibration was used. The weights were strictly re-optimized to minimize RAE on the internal holdout split.
+
+## 3. Diagnostic Logic
+By testing this exact configuration against the leaderboard, we force a binary outcome that will definitively identify the poison pill in the pipeline:
+
+### Scenario A: Sub19 beats Sub12 (RAE < 0.5878)
+**Conclusion:** The Tier 1 Counter-Assay features and clipped heteroscedastic weights are genuinely powerful and generalizable. The massive degradation seen in Sub17/18 was entirely the fault of the PyTorch neural network (Tier 2) injecting severe OOD noise into the predictions on the blinded analogs. 
+**Action:** Discard the PyTorch NN. Retain Sub19 as the new baseline and seek further improvements through graph feature refinement.
+
+### Scenario B: Sub19 underperforms Sub12 (RAE > 0.5878)
+**Conclusion:** The LLM Council's recommendation to integrate the Counter-Assay as a direct predictive feature was fundamentally flawed in this specific challenge format. Because the counter-assay was only run on a selected ~2.6k "active" compounds, it heavily encodes a selection bias. By training the XGBoost model to subtract the `counter_oof_pred` signal to penalize "interference", it overfit to the selection bias. When deployed on novel, inactive scaffolds in the blinded test set, it erroneously penalized valid predictions, destroying analog generalization.
+**Action:** Discard the counter-assay predictive features entirely. Roll back to the Sub12 baseline and explore using the counter-assay strictly as an evaluation filter rather than a training feature.
+
+This ablation will conclusively terminate the diagnostic branch.
